@@ -1,6 +1,5 @@
 export default function Authority() {
   const partners = [
-    'SENA COLOMBIA',
     'INDUSTRIA 5.0',
     'SOVEREIGN AI',
     'RAG FRAMEWORKS',
