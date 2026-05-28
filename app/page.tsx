@@ -1,0 +1,20 @@
+
+import Hero from "@/components/sections/Hero";
+import Authority from "@/components/sections/Authority";
+import PainSection from "@/components/sections/PainSection";
+import SolutionSection from "@/components/sections/SolutionSection";
+import ServicesSection from "@/components/sections/ServicesSection";
+import Footer from "@/components/sections/Footer";
+
+export default function Home() {
+  return (
+    <main className="flex min-h-screen flex-col">
+      <Hero />
+      <Authority />
+      <PainSection />
+      <SolutionSection />
+      <ServicesSection />
+      <Footer />
+    </main>
+  );
+}
