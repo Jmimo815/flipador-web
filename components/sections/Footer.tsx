@@ -10,7 +10,7 @@ export default function Footer() {
               alt="FLIP∀DOOR"
               className="h-10 w-auto object-contain"
             />
-            <p className="text-zinc-500 text-sm italic tracking-wide">The Door is Open.</p>
+
           </div>
 
           {/* Links */}
