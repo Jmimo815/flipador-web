@@ -10,10 +10,10 @@ const pillars = [
     wide: true,
     variant: 'purple',
     caseStudy: {
-      title: 'Consultora de 12 personas ahorró 320 horas/mes',
-      scenario: 'Un equipo de consultores pasaba el 70% de su tiempo copiando datos entre CRM, email y hojas de cálculo para generar reportes para clientes.',
-      solution: 'Implementamos un ecosistema de agentes IA que extrae datos del CRM, los procesa, genera reportes personalizados y los envía automáticamente.',
-      result: '320 horas mensuales liberadas. El equipo redirigió ese tiempo a estrategia y cierre de deals. Facturación aumentó 23% en 4 meses.',
+      title: 'Consultora eliminó 320 horas mensuales de trabajo manual',
+      problem: '12 consultores copiaban datos entre CRM, email y Excel para armar reportes de clientes. El 70% de su jornada se iba en tare repetitiveas.',
+      solution: 'Ecosistema de agentes IA que extrae, procesa y envía reportes automáticamente desde el CRM.',
+      result: '320 horas/mes liberadas. Facturación subió 23% al dedicar ese tiempo a cierre de deals.',
     },
   },
   {
@@ -22,10 +22,10 @@ const pillars = [
     wide: false,
     variant: 'dark',
     caseStudy: {
-      title: 'Base de conocimiento que responde en segundos',
-      scenario: 'Una empresa con 200+ empleados tenía manuales, procedimientos y normativas dispersos en 15 herramientas diferentes. Cada consulta interna demoraba horas.',
-      solution: 'Desplegamos un sistema RAG (Retrieval-Augmented Generation) con acceso a toda la documentación interna, protegido y sin depender de APIs externas.',
-      result: 'Tiempo de respuesta de horas a segundos. 94% de consultas resueltas sin intervención humana. Cero fuga de datos.',
+      title: '200 empleados encontraban respuestas en segundos, no horas',
+      problem: 'Manuales y normas dispersos en 15 plataformas. Cada consulta interna tardaba horas en resolverse.',
+      solution: 'Sistema RAG con acceso a toda la documentación interna. Sin APIs externas. Datos dentro de la empresa.',
+      result: '94% de consultas resueltas al instante sin intervención humana. Cero fuga de información.',
     },
   },
   {
@@ -34,10 +34,10 @@ const pillars = [
     wide: false,
     variant: 'dark',
     caseStudy: {
-      title: 'De 0 a operativo en 2 semanas',
-      scenario: 'Un equipo de 8 personas sin experiencia en IA necesitaba integrar automatización en su flujo de atención al cliente.',
-      solution: 'Taller intensivo de 5 días + 9 días de acompañamiento implementando soluciones reales sobre sus propios procesos. Cero teoría abstracta.',
-      result: 'En 14 días el equipo operaba 3 agentes IA autónomos. Redujeron tiempo de respuesta al cliente de 4 horas a 12 minutos.',
+      title: 'Equipo sin experiencia en IA, operativo en 14 días',
+      problem: '8 personas necesitaban automatizar atención al cliente. Ninguna había usado IA. Capacitación tradicional tomaría meses.',
+      solution: '5 días de taller + 9 días de acompañamiento implementando sobre sus procesos reales. Cero teoría suelta.',
+      result: '3 agentes IA funcionando. Tiempo de respuesta al cliente: de 4 horas a 12 minutos.',
     },
   },
   {
@@ -46,10 +46,10 @@ const pillars = [
     wide: true,
     variant: 'grey',
     caseStudy: {
-      title: 'De 10 a 200 piezas de contenido sin contratar',
-      scenario: 'Una agencia de marketing producía 10 piezas de contenido mensuales con un equipo de 3 personas. Escalar significaba triplicar la nómina.',
-      solution: 'Diseñamos flujos autónomos con IA que generan borradores, editan, adaptan formatos y programan publicación. El equipo humano supervisa y decide.',
-      result: '200+ piezas mensuales con el mismo equipo. Costo por pieza reducido 85%. Calidad consistente sin burnout.',
+      title: 'Agencia multiplicó su producción 20x con el mismo equipo',
+      problem: '3 personas producían 10 piezas de contenido al mes. Escalar implicaba contratar más gente.',
+      solution: 'Flujos autónomos que generan borradores, editan, adaptan formatos y programan publicación. El humano supervisa y decide.',
+      result: '200+ piezas/mes. Costo por pieza bajó 85%. Sin contratar a nadie.',
     },
   },
 ];
@@ -128,15 +128,15 @@ export default function SolutionSection() {
 
             <div className="space-y-6">
               <div>
-                <h4 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-2">Situación</h4>
-                <p className="text-zinc-300 leading-relaxed">{pillars[activeCase].caseStudy.scenario}</p>
+                <h4 className="text-sm font-semibold text-red-400 uppercase tracking-wider mb-2">Problema</h4>
+                <p className="text-zinc-300 leading-relaxed">{pillars[activeCase].caseStudy.problem}</p>
               </div>
               <div>
-                <h4 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-2">Solución FLIP∀DOOR</h4>
+                <h4 className="text-sm font-semibold text-brand-purple uppercase tracking-wider mb-2">Solución</h4>
                 <p className="text-zinc-300 leading-relaxed">{pillars[activeCase].caseStudy.solution}</p>
               </div>
               <div className="bg-brand-purple/20 border border-brand-purple/30 rounded-2xl p-5">
-                <h4 className="text-sm font-semibold text-brand-purple uppercase tracking-wider mb-2">Resultado</h4>
+                <h4 className="text-sm font-semibold text-green-400 uppercase tracking-wider mb-2">Resultado</h4>
                 <p className="text-white leading-relaxed font-medium">{pillars[activeCase].caseStudy.result}</p>
               </div>
             </div>
