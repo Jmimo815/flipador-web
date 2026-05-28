@@ -30,7 +30,12 @@ const services = [
 export default function ServicesSection() {
   return (
     <section id="servicios" className="section-padding bg-zinc-50 text-brand-black light-section">
-      <div className="container mx-auto px-6 text-center">
+      {/* Animated blobs */}
+      <div className="absolute bottom-1/4 left-1/4 w-[400px] h-[400px] bg-purple-200/15 rounded-full blur-3xl animate-[floatBlob2_18s_ease-in-out_infinite] pointer-events-none" />
+      <div className="absolute top-1/3 right-1/3 w-[350px] h-[350px] bg-purple-100/20 rounded-full blur-3xl animate-[floatBlob1_14s_ease-in-out_infinite] pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-[250px] h-[250px] bg-zinc-200/30 rounded-full blur-3xl animate-[floatBlob1_20s_ease-in-out_infinite_reverse] pointer-events-none" />
+
+      <div className="container mx-auto px-6 text-center relative z-10">
         <p className="text-brand-purple text-sm font-semibold uppercase tracking-widest mb-4">Servicios</p>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-display font-bold mb-4 tracking-tight">
           Nuestras Puertas Abiertas
@@ -45,7 +50,7 @@ export default function ServicesSection() {
             return (
               <div
                 key={s.title}
-                className="group p-8 rounded-3xl bg-white/90 backdrop-blur-sm border border-zinc-200 text-left hover:border-brand-purple hover:shadow-xl hover:shadow-purple-100/50 transition-all duration-500"
+                className="group p-8 rounded-3xl bg-white/80 backdrop-blur-sm border border-zinc-200 text-left hover:border-brand-purple hover:shadow-xl hover:shadow-purple-100/50 transition-all duration-500"
               >
                 <div className="w-12 h-12 rounded-xl bg-purple-50 flex items-center justify-center mb-5 group-hover:bg-brand-purple transition-colors duration-300">
                   <Icon className="w-5 h-5 text-brand-purple group-hover:text-white transition-colors duration-300" />

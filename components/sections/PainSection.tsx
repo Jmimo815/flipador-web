@@ -24,7 +24,11 @@ const pains = [
 export default function PainSection() {
   return (
     <section className="section-padding bg-white text-brand-black light-section">
-      <div className="container mx-auto px-6 text-center">
+      {/* Animated blobs */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-purple-200/20 rounded-full blur-3xl animate-[floatBlob1_15s_ease-in-out_infinite] pointer-events-none" />
+      <div className="absolute top-1/4 right-1/4 w-[300px] h-[300px] bg-purple-100/25 rounded-full blur-3xl animate-[floatBlob2_12s_ease-in-out_infinite] pointer-events-none" />
+
+      <div className="container mx-auto px-6 text-center relative z-10">
         <p className="text-brand-purple text-sm font-semibold uppercase tracking-widest mb-4">El problema</p>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-display font-bold mb-6 tracking-tight">
           El Laberinto de la IA
@@ -39,7 +43,7 @@ export default function PainSection() {
             return (
               <div
                 key={p.title}
-                className="group p-8 md:p-10 rounded-3xl border border-zinc-200 bg-white text-left hover:shadow-2xl hover:border-purple-300 hover:shadow-purple-100 transition-all duration-500"
+                className="group p-8 md:p-10 rounded-3xl border border-zinc-200 bg-white/80 backdrop-blur-sm text-left hover:shadow-2xl hover:border-purple-300 hover:shadow-purple-100 transition-all duration-500"
               >
                 <div className={`w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br ${p.accent} shadow-lg group-hover:scale-110 transition-transform duration-300`}>
                   <Icon className="w-6 h-6 text-white" />
