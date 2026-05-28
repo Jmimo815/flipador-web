@@ -1,33 +1,62 @@
-
-import React from 'react';
-import Image from 'next/image';
-import { Button } from "@/components/ui/button";
+'use client';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center glow-bg px-6 py-20 overflow-hidden">
-      <div className="container mx-auto text-center relative z-10">
-        <div className="mb-12 flex justify-center animate-in fade-in zoom-in duration-1000">
-          <img src="C:/Users/jonat/.hermes-web-ui/upload/default/1fff5a0ad6e9df6e.png" 
-               alt="FLIP∀DOOR Logo" className="h-32 md:h-48 w-auto object-contain" />
-        </div_div>
-        <h1 className="text-5xl md:text-8xl font-extrabold tracking-tighter mb-8 leading-tight text-white">
-          Deja de operar la IA. <br />
-          <span className="text-[#452476] italic underline decoration-brandGrey/30">Comienza a dirigirla.</span>
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-brand-purple/20 via-brand-black to-brand-black" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-brand-purple/10 rounded-full blur-3xl" />
+
+      <div className="container mx-auto px-6 text-center relative z-10">
+        {/* Logo */}
+        <div className="mb-10 animate-fade-up">
+          <img
+            src="/brand/ISOTIPO_FLIPADOOR-removebg-preview.png"
+            alt="FLIP∀DOOR"
+            className="h-24 md:h-36 w-auto mx-auto object-contain"
+          />
+        </div>
+
+        {/* Headline */}
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-bold tracking-tight mb-8 animate-fade-up-delay">
+          Deja de operar la IA.
+          <br />
+          <span className="glow-text">Comienza a dirigirla.</span>
         </h1>
-        <p className="text-lg md:text-2xl text-zinc-400 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
-          Lideramos la transición hacia la <span className="text-white font-medium italic">Industria 5.0</span>. 
+
+        {/* Subtitle */}
+        <p className="text-lg md:text-xl lg:text-2xl text-zinc-400 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-up-delay-2">
+          Lideramos la transición hacia la <span className="text-white font-medium">Industria&nbsp;5.0</span>.
           Adaptamos la IA para abrir puertas y liberar el ingenio humano.
         </p>
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <Button size="lg" className="bg-[#452476] hover:bg-purple-700 text-white px-10 py-7 text-xl font-bold rounded-full shadow-2xl transition-all hover:scale-105">
+
+        {/* CTAs */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up-delay-2">
+          <a
+            href="#servicios"
+            className="inline-flex items-center justify-center bg-brand-purple hover:bg-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25"
+          >
             Abrir mi Puerta al Futuro
-          </Button>
-          <a href="#metodo" className="text-zinc-400 hover:text-white font-medium transition-all flex items-center gap-2 group">
-            Descubre el Método ∀ <span className="group-hover:translate-x-2 transition-transform">&rarr;</span>
+            <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
           </a>
-        </div_div>
-      </div_div>
+          <a
+            href="#metodo"
+            className="inline-flex items-center text-zinc-400 hover:text-white font-medium transition-colors group"
+          >
+            Descubre el Método&nbsp;∀
+            <span className="group-hover:translate-x-2 transition-transform ml-1">&rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      {/* Scroll indicator */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+        <svg className="w-6 h-6 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+        </svg>
+      </div>
     </section>
   );
 }
