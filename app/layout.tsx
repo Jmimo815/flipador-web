@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Lideramos la transición hacia la Industria 5.0. Adaptamos la IA para abrir puertas y liberar el ingenio humano.',
   keywords: 'AI, Industria 5.0, Sovereign AI, automatización, RAG, agentes IA, consultoría',
   openGraph: {
-    title: 'FLIP∀DOOR — The Door is Open',
+    title: 'FLIP∀DOOR — Deja de operar la IA. Comienza a dirigirla.',
     description: 'Deja de operar la IA. Comienza a dirigirla.',
     type: 'website',
     url: 'https://flipadoor.com',

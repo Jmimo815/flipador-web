@@ -36,7 +36,7 @@ export default function Hero() {
             href="#servicios"
             className="inline-flex items-center justify-center bg-brand-purple hover:bg-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25"
           >
-            Abrir mi Puerta al Futuro
+            Abrir mi puerta al futuro
             <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>

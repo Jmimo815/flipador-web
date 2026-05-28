@@ -11,7 +11,7 @@ const pillars = [
     variant: 'purple',
     caseStudy: {
       title: 'Consultora eliminó 320 horas mensuales de trabajo manual',
-      problem: '12 consultores copiaban datos entre CRM, email y Excel para armar reportes de clientes. El 70% de su jornada se iba en tare repetitiveas.',
+      problem: '12 consultores copiaban datos entre CRM, email y Excel para armar reportes de clientes. El 70% de su jornada se iba en tareas repetitivas.',
       solution: 'Ecosistema de agentes IA que extrae, procesa y envía reportes automáticamente desde el CRM.',
       result: '320 horas/mes liberadas. Facturación subió 23% al dedicar ese tiempo a cierre de deals.',
     },
