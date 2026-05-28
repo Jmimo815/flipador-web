@@ -29,7 +29,7 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section id="servicios" className="section-padding bg-zinc-50 text-brand-black">
+    <section id="servicios" className="section-padding bg-zinc-50 text-brand-black light-section">
       <div className="container mx-auto px-6 text-center">
         <p className="text-brand-purple text-sm font-semibold uppercase tracking-widest mb-4">Servicios</p>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-display font-bold mb-4 tracking-tight">
@@ -45,7 +45,7 @@ export default function ServicesSection() {
             return (
               <div
                 key={s.title}
-                className="group p-8 rounded-3xl bg-white border border-zinc-200 text-left hover:border-brand-purple hover:shadow-xl transition-all duration-500"
+                className="group p-8 rounded-3xl bg-white/90 backdrop-blur-sm border border-zinc-200 text-left hover:border-brand-purple hover:shadow-xl hover:shadow-purple-100/50 transition-all duration-500"
               >
                 <div className="w-12 h-12 rounded-xl bg-purple-50 flex items-center justify-center mb-5 group-hover:bg-brand-purple transition-colors duration-300">
                   <Icon className="w-5 h-5 text-brand-purple group-hover:text-white transition-colors duration-300" />
