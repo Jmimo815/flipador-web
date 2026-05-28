@@ -19,33 +19,6 @@
   .section-padding {
     @apply py-20 md:py-32 px-6;
   }
-  .light-section {
-    @apply relative overflow-hidden;
-  }
-  .light-section::before {
-    content: '';
-    position: absolute;
-    top: -40%;
-    left: -15%;
-    width: 70%;
-    height: 180%;
-    background: radial-gradient(ellipse, rgba(69,36,118,0.12) 0%, transparent 65%);
-    animation: floatBlob1 18s ease-in-out infinite;
-    pointer-events: none;
-    z-index: 0;
-  }
-  .light-section::after {
-    content: '';
-    position: absolute;
-    bottom: -25%;
-    right: -10%;
-    width: 60%;
-    height: 160%;
-    background: radial-gradient(ellipse, rgba(163,165,165,0.12) 0%, transparent 65%);
-    animation: floatBlob2 22s ease-in-out infinite;
-    pointer-events: none;
-    z-index: 0;
-  }
 }
 
 @layer utilities {
@@ -70,16 +43,55 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes floatBlob1 {
-  0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
-  25% { transform: translate(12%, -8%) scale(1.15) rotate(3deg); }
-  50% { transform: translate(6%, 10%) scale(0.9) rotate(-2deg); }
-  75% { transform: translate(-10%, 4%) scale(1.1) rotate(1deg); }
+/* Animated wave lines for light sections */
+.wave-bg {
+  position: relative;
+  overflow: hidden;
 }
 
-@keyframes floatBlob2 {
-  0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
-  30% { transform: translate(-10%, 7%) scale(1.12) rotate(-3deg); }
-  60% { transform: translate(8%, -8%) scale(0.88) rotate(2deg); }
-  85% { transform: translate(4%, 5%) scale(1.06) rotate(-1deg); }
+.wave-bg::before,
+.wave-bg::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.wave-bg::before {
+  top: 0;
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 80px,
+      rgba(69, 36, 118, 0.03) 80px,
+      rgba(69, 36, 118, 0.03) 82px
+    );
+  animation: waveMove1 20s linear infinite;
+}
+
+.wave-bg::after {
+  top: 0;
+  background:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 120px,
+      rgba(163, 165, 165, 0.04) 120px,
+      rgba(163, 165, 165, 0.04) 122px
+    );
+  animation: waveMove2 28s linear infinite;
+}
+
+@keyframes waveMove1 {
+  0% { transform: translateX(0) translateY(0); }
+  100% { transform: translateX(160px) translateY(-80px); }
+}
+
+@keyframes waveMove2 {
+  0% { transform: translateX(0) translateY(0); }
+  100% { transform: translateX(-240px) translateY(120px); }
 }
