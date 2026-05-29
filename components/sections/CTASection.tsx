@@ -14,7 +14,7 @@ export default function CTASection() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://wa.me/573005555555"
+            href="https://wa.me/573054636733"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-white text-brand-purple px-8 py-4 text-lg font-bold rounded-full hover:bg-purple-50 transition-all hover:scale-105 shadow-2xl shadow-black/25"
