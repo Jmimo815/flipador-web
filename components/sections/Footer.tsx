@@ -15,9 +15,9 @@ export default function Footer() {
 
           {/* Links */}
           <div className="flex items-center gap-8 text-sm text-zinc-500">
-            <a href="#" className="hover:text-white transition-colors font-medium">LinkedIn</a>
-            <a href="#" className="hover:text-white transition-colors font-medium">X</a>
-            <a href="#" className="hover:text-white transition-colors font-medium">WhatsApp</a>
+            <a href="https://linkedin.com/company/flipadoor" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors font-medium">LinkedIn</a>
+            <a href="https://x.com/flipadoor" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors font-medium">X</a>
+            <a href="https://wa.me/573054636733" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors font-medium">WhatsApp</a>
           </div>
 
           {/* Copyright */}

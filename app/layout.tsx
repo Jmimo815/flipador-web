@@ -16,6 +16,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className="dark">
+      <head>
+        <script async src="https://tally.so/widgets/embed.js"></script>
+      </head>
       <body className="font-sans">{children}</body>
     </html>
   );
