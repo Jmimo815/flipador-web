@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 const navLinks = [
-  { label: 'MÃ©todo', href: '#metodo' },
+  { label: 'Método', href: '#metodo' },
   { label: 'Servicios', href: '#servicios' },
   { label: 'Casos', href: '#casos' },
   { label: 'Testimonios', href: '#testimonios' },
@@ -34,10 +34,10 @@ export default function Navbar() {
         <a href="#" className="flex items-center gap-2">
           <img
             src="/brand/ISOTIPO_FLIPADOOR-removebg-preview.png"
-            alt="FLIPâDOOR"
+            alt="FLIP∀DOOR"
             className="h-8 w-auto object-contain"
           />
-          <span className="font-display font-bold text-white text-lg tracking-tight">FLIPâDOOR</span>
+          <span className="font-display font-bold text-white text-lg tracking-tight">FLIP∀DOOR</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
