@@ -1,4 +1,11 @@
+'use client';
+
+import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Briefcase, Shield, GraduationCap, Workflow } from 'lucide-react';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const services = [
   {
@@ -32,8 +39,29 @@ const services = [
 ];
 
 export default function ServicesSection() {
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const cardsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from('.service-card', {
+        y: 60,
+        opacity: 0,
+        duration: 0.8,
+        stagger: 0.15,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: 'top 80%',
+          toggleActions: 'play none none none',
+        },
+      });
+    }, sectionRef);
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section id="servicios" className="section-padding bg-zinc-50 text-brand-black wave-bg">
+    <section ref={sectionRef} id="servicios" className="section-padding bg-zinc-50 text-brand-black wave-bg">
       {/* Animated wave lines */}
       <svg className="absolute inset-0 w-full h-full pointer-events-none z-0" preserveAspectRatio="none" aria-hidden="true">
         <path className="svc-wave-1" d="M0,120 C400,200 800,60 1200,160 C1600,260 2000,80 2400,180 C2800,260 3200,140 3600,200 L3600,800 L0,800 Z" fill="none" stroke="rgba(69,36,118,0.05)" strokeWidth="1.5" />
@@ -57,7 +85,7 @@ export default function ServicesSection() {
             return (
               <div
                 key={s.title}
-                className="group p-8 rounded-3xl bg-white/90 backdrop-blur-sm border border-zinc-200 text-left hover:border-brand-purple hover:shadow-xl hover:shadow-purple-100/50 transition-all duration-500"
+                className="service-card group p-8 rounded-3xl bg-white/90 backdrop-blur-sm border border-zinc-200 text-left hover:border-brand-purple hover:shadow-xl hover:shadow-purple-100/50 transition-all duration-500"
               >
                 <div className="w-12 h-12 rounded-xl bg-purple-50 flex items-center justify-center mb-5 group-hover:bg-brand-purple transition-colors duration-300">
                   <Icon className="w-5 h-5 text-brand-purple group-hover:text-white transition-colors duration-300" />

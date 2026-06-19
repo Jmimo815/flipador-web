@@ -1,4 +1,12 @@
+'use client';
+
+import { useEffect, useRef } from 'react';
 import { Check } from 'lucide-react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
+
 
 const plans = [
   {
@@ -49,8 +57,28 @@ const plans = [
 ];
 
 export default function Pricing() {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from('.pricing-card', {
+        y: 60,
+        opacity: 0,
+        duration: 0.8,
+        stagger: 0.15,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: 'top 80%',
+          toggleActions: 'play none none none',
+        },
+      });
+    }, sectionRef);
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section id="planes" className="section-padding bg-brand-black">
+    <section ref={sectionRef} id="planes" className="section-padding bg-brand-black">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-brand-purple text-sm font-semibold uppercase tracking-widest mb-4">Planes</p>
@@ -66,7 +94,7 @@ export default function Pricing() {
           {plans.map((plan) => (
             <div
               key={plan.name}
-              className={`relative p-8 rounded-3xl transition-all duration-500 ${
+              className={`pricing-card relative p-8 rounded-3xl transition-all duration-500 ${
                 plan.highlighted
                   ? 'bg-brand-purple/20 border-2 border-brand-purple shadow-2xl shadow-brand-purple/20'
                   : 'bg-white/5 border border-white/10 hover:border-white/20'

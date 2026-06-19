@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 
 const faqs = [
@@ -31,10 +31,29 @@ const faqs = [
 ];
 
 export default function FAQ() {
+  const sectionRef = useRef<HTMLElement>(null);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from('.faq-item', {
+        y: 40,
+        opacity: 0,
+        duration: 0.6,
+        stagger: 0.1,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: 'top 80%',
+          toggleActions: 'play none none none',
+        },
+      });
+    }, sectionRef);
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section id="faq" className="section-padding bg-brand-black border-y border-white/5">
+    <section ref={sectionRef} id="faq" className="section-padding bg-brand-black border-y border-white/5">
       <div className="container mx-auto px-6 max-w-3xl">
         <div className="text-center mb-16">
           <p className="text-brand-purple text-sm font-semibold uppercase tracking-widest mb-4">Preguntas frecuentes</p>
@@ -49,7 +68,7 @@ export default function FAQ() {
             return (
               <div
                 key={i}
-                className={`rounded-2xl border transition-all duration-300 ${
+                className={`faq-item rounded-2xl border transition-all duration-300 ${
                   isOpen
                     ? 'bg-white/5 border-white/10'
                     : 'bg-transparent border-white/5 hover:border-white/10'

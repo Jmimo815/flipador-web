@@ -24,7 +24,8 @@ export default function CookieBanner() {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-zinc-400 text-sm">
           Utilizamos cookies para mejorar tu experiencia. Al continuar navegando, aceptás nuestra{' '}
-          <a href="#" className="text-brand-purple hover:underline">Política de Privacidad</a>.
+          <a href="/cookies" className="text-brand-purple hover:underline">Política de Cookies</a> y nuestra{' '}
+          <a href="/privacidad" className="text-brand-purple hover:underline">Política de Privacidad</a>.
         </p>
         <button
           onClick={accept}

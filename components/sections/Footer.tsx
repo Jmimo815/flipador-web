@@ -24,11 +24,11 @@ export default function Footer() {
           <div className="text-xs text-zinc-600">
             <p>© {new Date().getFullYear()} FLIP∀DOOR. Adaptabilidad Universal.</p>
             <div className="flex items-center gap-4 mt-2">
-              <a href="#" className="hover:text-zinc-400 transition-colors">Privacidad</a>
+              <a href="/privacidad" className="hover:text-zinc-400 transition-colors">Privacidad</a>
               <span className="text-zinc-700">·</span>
-              <a href="#" className="hover:text-zinc-400 transition-colors">Términos</a>
+              <a href="/terminos" className="hover:text-zinc-400 transition-colors">Términos</a>
               <span className="text-zinc-700">·</span>
-              <a href="#" className="hover:text-zinc-400 transition-colors">Cookies</a>
+              <a href="/cookies" className="hover:text-zinc-400 transition-colors">Cookies</a>
             </div>
           </div>
         </div>

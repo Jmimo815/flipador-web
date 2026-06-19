@@ -1,4 +1,13 @@
+'use client';
+
+import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
+
 export default function Testimonials() {
+  const sectionRef = useRef<HTMLElement>(null);
   const testimonials = [
     {
       quote: 'En 14 días pasamos de no saber qué era un agente IA a tener 3 operativos atendiendo clientes. Transformación real, no buzzwords.',
@@ -23,8 +32,26 @@ export default function Testimonials() {
     },
   ];
 
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from('.testimonial-card', {
+        y: 60,
+        opacity: 0,
+        duration: 0.8,
+        stagger: 0.15,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: 'top 80%',
+          toggleActions: 'play none none none',
+        },
+      });
+    }, sectionRef);
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section id="testimonios" className="section-padding bg-brand-black">
+    <section ref={sectionRef} id="testimonios" className="section-padding bg-brand-black">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-brand-purple text-sm font-semibold uppercase tracking-widest mb-4">Testimonios</p>
@@ -37,7 +64,7 @@ export default function Testimonials() {
           {testimonials.map((t) => (
             <div
               key={t.name}
-              className="glass p-8 rounded-3xl hover:border-white/20 transition-all duration-500"
+              className="testimonial-card glass p-8 rounded-3xl hover:border-white/20 transition-all duration-500"
             >
               <p className="text-lg text-zinc-300 leading-relaxed mb-8 italic">
                 &ldquo;{t.quote}&rdquo;

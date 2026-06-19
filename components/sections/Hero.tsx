@@ -1,10 +1,32 @@
 'use client';
 
+'use client';
+
+import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+
 export default function Hero() {
+  const heroRef = useRef<HTMLElement>(null);
+  const bgRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!bgRef.current) return;
+    gsap.to(bgRef.current, {
+      yPercent: 15,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: heroRef.current,
+        start: 'top top',
+        end: 'bottom top',
+        scrub: true,
+      },
+    });
+  }, []);
+
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-brand-purple/20 via-brand-black to-brand-black" />
+      <div ref={bgRef} className="absolute inset-0 bg-gradient-to-b from-brand-purple/20 via-brand-black to-brand-black" />
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-brand-purple/10 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-6 text-center relative z-10">
