@@ -11,6 +11,7 @@ import Pricing from '@/components/sections/Pricing';
 import FAQ from '@/components/sections/FAQ';
 import CTASection from '@/components/sections/CTASection';
 import Footer from '@/components/sections/Footer';
+import CookieBanner from '@/components/CookieBanner';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <FAQ />
       <CTASection />
       <Footer />
+      <CookieBanner />
     </main>
   );
 }

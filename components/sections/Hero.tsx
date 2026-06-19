@@ -26,8 +26,8 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl lg:text-2xl text-zinc-400 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-up-delay-2">
-          Lideramos la transición hacia la <span className="text-white font-medium">Industria&nbsp;5.0</span>.
-          Adaptamos la IA para abrir puertas y liberar el ingenio humano.
+          Implementá agentes IA privados en <span className="text-white font-medium">14 días</span>.
+          Sin APIs externas. Sin fugas de datos. Tu equipo opera, no es reemplazado.
         </p>
 
         {/* CTAs */}

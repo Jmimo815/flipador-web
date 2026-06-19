@@ -20,10 +20,17 @@ export default function Footer() {
             <a href="https://wa.me/573054636733" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors font-medium">WhatsApp</a>
           </div>
 
-          {/* Copyright */}
-          <p className="text-xs text-zinc-600">
-            © {new Date().getFullYear()} FLIP∀DOOR. Adaptabilidad Universal.
-          </p>
+          {/* Copyright + Legal */}
+          <div className="text-xs text-zinc-600">
+            <p>© {new Date().getFullYear()} FLIP∀DOOR. Adaptabilidad Universal.</p>
+            <div className="flex items-center gap-4 mt-2">
+              <a href="#" className="hover:text-zinc-400 transition-colors">Privacidad</a>
+              <span className="text-zinc-700">·</span>
+              <a href="#" className="hover:text-zinc-400 transition-colors">Términos</a>
+              <span className="text-zinc-700">·</span>
+              <a href="#" className="hover:text-zinc-400 transition-colors">Cookies</a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
