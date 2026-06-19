@@ -9,6 +9,7 @@ const pillars = [
     desc: 'Convertimos la automatización en un catalizador creativo. Pasamos la rutina al pensamiento estratégico.',
     wide: true,
     variant: 'purple',
+    cta: 'Ver caso: 320h liberadas →',
     caseStudy: {
       title: 'Consultora eliminó 320 horas mensuales de trabajo manual',
       problem: '12 consultores copiaban datos entre CRM, email y Excel para armar reportes de clientes. El 70% de su jornada se iba en tareas repetitivas.',
@@ -21,6 +22,7 @@ const pillars = [
     desc: 'IA accesible, segura y sin silos organizacionales.',
     wide: false,
     variant: 'dark',
+    cta: 'Ver caso: 94% consultas auto →',
     caseStudy: {
       title: '200 empleados encontraban respuestas en segundos, no horas',
       problem: 'Manuales y normas dispersos en 15 plataformas. Cada consulta interna tardaba horas en resolverse.',
@@ -33,6 +35,7 @@ const pillars = [
     desc: 'Aprendizaje acelerado basado en implementación inmediata.',
     wide: false,
     variant: 'dark',
+    cta: 'Ver caso: 14 días a producción →',
     caseStudy: {
       title: 'Equipo sin experiencia en IA, operativo en 14 días',
       problem: '8 personas necesitaban automatizar atención al cliente. Ninguna había usado IA. Capacitación tradicional tomaría meses.',
@@ -45,6 +48,7 @@ const pillars = [
     desc: 'Consistencia y velocidad generativa para que tu empresa escale sin fricciones.',
     wide: true,
     variant: 'grey',
+    cta: 'Ver caso: 20x producción →',
     caseStudy: {
       title: 'Agencia multiplicó su producción 20x con el mismo equipo',
       problem: '3 personas producían 10 piezas de contenido al mes. Escalar implicaba contratar más gente.',
@@ -96,7 +100,7 @@ export default function SolutionSection() {
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">{p.title}</h3>
                 <p className="text-lg opacity-80 leading-relaxed mb-6">{p.desc}</p>
                 <button className={`${btnClass} px-5 py-2.5 rounded-full text-sm font-semibold transition-all`}>
-                  Ver caso de uso →
+                  {p.cta}
                 </button>
               </div>
             );

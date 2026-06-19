@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar';
 import Hero from '@/components/sections/Hero';
 import Authority from '@/components/sections/Authority';
 import PainSection from '@/components/sections/PainSection';
@@ -9,6 +10,7 @@ import Footer from '@/components/sections/Footer';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
+      <Navbar />
       <Hero />
       <Authority />
       <PainSection />

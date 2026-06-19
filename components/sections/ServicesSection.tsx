@@ -6,24 +6,28 @@ const services = [
     title: 'Consultoría Estratégica',
     desc: 'Auditoría de procesos y diseño de un roadmap de IA personalizado para maximizar el ROI.',
     icon: Briefcase,
+    cta: 'Auditar mi proceso',
   },
   {
     tag: 'Sovereign',
     title: 'Sovereign AI Setup',
     desc: 'Despliegue de modelos LLM locales para privacidad absoluta y costo cero en tokens.',
     icon: Shield,
+    cta: 'Desplegar Sovereign AI',
   },
   {
     tag: 'Academy',
     title: 'Taller de Desmitificación',
     desc: 'Capacitación intensiva para equipos: transformando el miedo en maestría tecnológica.',
     icon: GraduationCap,
+    cta: 'Reservar taller',
   },
   {
     tag: 'Efficiency',
     title: 'Flujos Autónomos',
     desc: 'Integraciones inteligentes que eliminan el trabajo repetitivo y liberan tiempo.',
     icon: Workflow,
+    cta: 'Automatizar operaciones',
   },
 ];
 
@@ -67,7 +71,7 @@ export default function ServicesSection() {
                   href="#contacto"
                   className="inline-flex items-center text-sm font-semibold text-brand-purple hover:text-purple-700 transition-colors group/link"
                 >
-                  Consultar
+                  {s.cta}
                   <svg className="ml-1 w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
