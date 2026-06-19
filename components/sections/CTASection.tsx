@@ -25,13 +25,14 @@ export default function CTASection() {
               <path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.932 11.932 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.239 0-4.332-.717-6.033-1.935l-.422-.305-3.1 1.04 1.04-3.1-.305-.422A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
             </svg>
           </a>
-          <button
-            data-tally-open="flipadoor-consulta"
-            data-tally-overlay="1"
-            className="inline-flex items-center justify-center border-2 border-white/30 text-white px-8 py-4 text-lg font-semibold rounded-full hover:bg-white/10 hover:border-white/60 transition-all cursor-pointer"
+          <a
+            href="https://tally.so/r/flipadoor-consulta"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center border-2 border-white/30 text-white px-8 py-4 text-lg font-semibold rounded-full hover:bg-white/10 hover:border-white/60 transition-all"
           >
             Enviar un Email
-          </button>
+          </a>
         </div>
       </div>
     </section>
