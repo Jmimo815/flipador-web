@@ -26,7 +26,7 @@ export default function CTASection() {
             </svg>
           </a>
           <a
-            href="https://tally.so/r/flipadoor-consulta"
+            href="https://tally.so/r/vGKy58"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center border-2 border-white/30 text-white px-8 py-4 text-lg font-semibold rounded-full hover:bg-white/10 hover:border-white/60 transition-all"
