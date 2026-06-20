@@ -2,75 +2,77 @@
 
 import { useState } from 'react';
 import { X } from 'lucide-react';
-
-const pillars = [
-  {
-    title: 'Liberar Talento',
-    desc: 'Convertimos la automatización en un catalizador creativo. Pasamos la rutina al pensamiento estratégico.',
-    wide: true,
-    variant: 'purple',
-    cta: 'Ver caso: 320h liberadas →',
-    caseStudy: {
-      title: 'Consultora eliminó 320 horas mensuales de trabajo manual',
-      problem: '12 consultores copiaban datos entre CRM, email y Excel para armar reportes de clientes. El 70% de su jornada se iba en tareas repetitivas.',
-      solution: 'Ecosistema de agentes IA que extrae, procesa y envía reportes automáticamente desde el CRM.',
-      result: '320 horas/mes liberadas. Facturación subió 23% al dedicar ese tiempo a cierre de deals.',
-    },
-  },
-  {
-    title: 'Democratizar Conocimiento',
-    desc: 'IA accesible, segura y sin silos organizacionales.',
-    wide: false,
-    variant: 'dark',
-    cta: 'Ver caso: 94% consultas auto →',
-    caseStudy: {
-      title: '200 empleados encontraban respuestas en segundos, no horas',
-      problem: 'Manuales y normas dispersos en 15 plataformas. Cada consulta interna tardaba horas en resolverse.',
-      solution: 'Sistema RAG con acceso a toda la documentación interna. Sin APIs externas. Datos dentro de la empresa.',
-      result: '94% de consultas resueltas al instante sin intervención humana. Cero fuga de información.',
-    },
-  },
-  {
-    title: 'Cerrar la Brecha',
-    desc: 'Aprendizaje acelerado basado en implementación inmediata.',
-    wide: false,
-    variant: 'dark',
-    cta: 'Ver caso: 14 días a producción →',
-    caseStudy: {
-      title: 'Equipo sin experiencia en IA, operativo en 14 días',
-      problem: '8 personas necesitaban automatizar atención al cliente. Ninguna había usado IA. Capacitación tradicional tomaría meses.',
-      solution: '5 días de taller + 9 días de acompañamiento implementando sobre sus procesos reales. Cero teoría suelta.',
-      result: '3 agentes IA funcionando. Tiempo de respuesta al cliente: de 4 horas a 12 minutos.',
-    },
-  },
-  {
-    title: 'Optimizar Agilidad',
-    desc: 'Consistencia y velocidad generativa para que tu empresa escale sin fricciones.',
-    wide: true,
-    variant: 'grey',
-    cta: 'Ver caso: 20x producción →',
-    caseStudy: {
-      title: 'Agencia multiplicó su producción 20x con el mismo equipo',
-      problem: '3 personas producían 10 piezas de contenido al mes. Escalar implicaba contratar más gente.',
-      solution: 'Flujos autónomos que generan borradores, editan, adaptan formatos y programan publicación. El humano supervisa y decide.',
-      result: '200+ piezas/mes. Costo por pieza bajó 85%. Sin contratar a nadie.',
-    },
-  },
-];
+import { useI18n } from '@/lib/i18n';
 
 export default function SolutionSection() {
   const [activeCase, setActiveCase] = useState<number | null>(null);
+  const { t } = useI18n();
+
+  const pillars = [
+    {
+      title: t('method.pillar1.title'),
+      desc: t('method.pillar1.desc'),
+      wide: true,
+      variant: 'purple',
+      cta: t('method.pillar1.cta'),
+      caseStudy: {
+        title: t('method.pillar1.case.title'),
+        problem: t('method.pillar1.case.problem'),
+        solution: t('method.pillar1.case.solution'),
+        result: t('method.pillar1.case.result'),
+      },
+    },
+    {
+      title: t('method.pillar2.title'),
+      desc: t('method.pillar2.desc'),
+      wide: false,
+      variant: 'dark',
+      cta: t('method.pillar2.cta'),
+      caseStudy: {
+        title: t('method.pillar2.case.title'),
+        problem: t('method.pillar2.case.problem'),
+        solution: t('method.pillar2.case.solution'),
+        result: t('method.pillar2.case.result'),
+      },
+    },
+    {
+      title: t('method.pillar3.title'),
+      desc: t('method.pillar3.desc'),
+      wide: false,
+      variant: 'dark',
+      cta: t('method.pillar3.cta'),
+      caseStudy: {
+        title: t('method.pillar3.case.title'),
+        problem: t('method.pillar3.case.problem'),
+        solution: t('method.pillar3.case.solution'),
+        result: t('method.pillar3.case.result'),
+      },
+    },
+    {
+      title: t('method.pillar4.title'),
+      desc: t('method.pillar4.desc'),
+      wide: true,
+      variant: 'grey',
+      cta: t('method.pillar4.cta'),
+      caseStudy: {
+        title: t('method.pillar4.case.title'),
+        problem: t('method.pillar4.case.problem'),
+        solution: t('method.pillar4.case.solution'),
+        result: t('method.pillar4.case.result'),
+      },
+    },
+  ];
 
   return (
     <section id="metodo" className="section-padding bg-brand-black text-white overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
-          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">El método</p>
+          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">{t('method.label')}</p>
           <h2 className="text-display-lg font-display font-bold tracking-tight mb-5">
-            El Método <span className="glow-text">∀</span>
+            {t('method.title')}
           </h2>
           <p className="text-zinc-400 max-w-2xl mx-auto text-lg md:text-xl">
-            Adaptabilidad universal para abrir oportunidades reales.
+            {t('method.subtitle')}
           </p>
         </div>
 
@@ -125,22 +127,22 @@ export default function SolutionSection() {
               <X className="w-7 h-7" />
             </button>
 
-            <p className="text-brand-purple text-xs font-bold uppercase tracking-widest mb-3">Caso de uso</p>
+            <p className="text-brand-purple text-xs font-bold uppercase tracking-widest mb-3">{t('method.modal.label')}</p>
             <h3 className="text-2xl md:text-3xl font-display font-bold mb-10">
               {pillars[activeCase].caseStudy.title}
             </h3>
 
             <div className="space-y-8">
               <div>
-                <h4 className="text-sm font-bold text-red-400 uppercase tracking-wider mb-3">Problema</h4>
+                <h4 className="text-sm font-bold text-red-400 uppercase tracking-wider mb-3">{t('method.modal.problem')}</h4>
                 <p className="text-zinc-300 leading-relaxed">{pillars[activeCase].caseStudy.problem}</p>
               </div>
               <div>
-                <h4 className="text-sm font-bold text-brand-purple uppercase tracking-wider mb-3">Solución</h4>
+                <h4 className="text-sm font-bold text-brand-purple uppercase tracking-wider mb-3">{t('method.modal.solution')}</h4>
                 <p className="text-zinc-300 leading-relaxed">{pillars[activeCase].caseStudy.solution}</p>
               </div>
               <div className="bg-brand-purple/20 border border-brand-purple/30 rounded-2xl p-6">
-                <h4 className="text-sm font-bold text-green-400 uppercase tracking-wider mb-3">Resultado</h4>
+                <h4 className="text-sm font-bold text-green-400 uppercase tracking-wider mb-3">{t('method.modal.result')}</h4>
                 <p className="text-white leading-relaxed font-bold text-lg">{pillars[activeCase].caseStudy.result}</p>
               </div>
             </div>

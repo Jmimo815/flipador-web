@@ -1,4 +1,10 @@
+'use client';
+
+import { useI18n } from '@/lib/i18n';
+
 export default function Footer() {
+  const { t } = useI18n();
+
   return (
     <footer className="py-12 bg-brand-black border-t border-white/5">
       <div className="container mx-auto px-6">
@@ -10,7 +16,6 @@ export default function Footer() {
               alt="FLIP∀DOOR"
               className="h-10 w-auto object-contain"
             />
-
           </div>
 
           {/* Links */}
@@ -22,13 +27,13 @@ export default function Footer() {
 
           {/* Copyright + Legal */}
           <div className="text-xs text-zinc-600">
-            <p>© {new Date().getFullYear()} FLIP∀DOOR. Adaptabilidad Universal.</p>
+            <p>{t('footer.copyright').replace('{year}', String(new Date().getFullYear()))}</p>
             <div className="flex items-center gap-4 mt-2">
-              <a href="/privacidad" className="hover:text-zinc-400 transition-colors">Privacidad</a>
+              <a href="/privacidad" className="hover:text-zinc-400 transition-colors">{t('footer.privacy')}</a>
               <span className="text-zinc-700">·</span>
-              <a href="/terminos" className="hover:text-zinc-400 transition-colors">Términos</a>
+              <a href="/terminos" className="hover:text-zinc-400 transition-colors">{t('footer.terms')}</a>
               <span className="text-zinc-700">·</span>
-              <a href="/cookies" className="hover:text-zinc-400 transition-colors">Cookies</a>
+              <a href="/cookies" className="hover:text-zinc-400 transition-colors">{t('footer.cookies')}</a>
             </div>
           </div>
         </div>

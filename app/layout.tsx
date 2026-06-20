@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { I18nProvider } from '@/lib/i18n';
+import I18nHtml from '@/components/I18nHtml';
 
 export const metadata: Metadata = {
   title: 'FLIP∀DOOR — AI-Powered Content Intelligence',
@@ -16,7 +18,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className="dark">
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        <I18nProvider>
+          <I18nHtml>{children}</I18nHtml>
+        </I18nProvider>
+      </body>
     </html>
   );
 }

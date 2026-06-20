@@ -1,64 +1,51 @@
+'use client';
+
+import { useI18n } from '@/lib/i18n';
 import { Check } from 'lucide-react';
 
-const plans = [
-  {
-    name: 'Diagnóstico IA',
-    price: 'Gratis',
-    period: '',
-    description: 'Descubrí oportunidades ocultas en 30 minutos.',
-    features: [
-      'Assessment de 30 minutos',
-      'Mapa de madurez IA',
-      'Roadmap priorizado',
-      'Sin compromiso',
-    ],
-    highlighted: false,
-    cta: 'Reservar diagnóstico',
-  },
-  {
-    name: 'Sovereign AI Setup',
-    price: 'Desde $3K',
-    period: 'USD',
-    description: 'IA privada, segura y operativa en 14 días.',
-    features: [
-      'Implementación LLM local',
-      'Arquitectura RAG inicial',
-      'Hasta 3 agentes IA',
-      'Capacitación del equipo',
-      'Soporte 30 días',
-    ],
-    highlighted: true,
-    cta: 'Empezar implementación',
-  },
-  {
-    name: 'Transformación Completa',
-    price: 'Desde $15K',
-    period: 'USD',
-    description: 'Programa de 90 días para escalar con IA.',
-    features: [
-      'Ecosistema IA completo',
-      'Flujos autónomos ilimitados',
-      'Capacitación avanzada',
-      'Soporte prioritario',
-      'Métricas de ROI mensuales',
-      'Acompañamiento continuo',
-    ],
-    highlighted: false,
-    cta: 'Conversar con ventas',
-  },
-];
-
 export default function Pricing() {
+  const { t } = useI18n();
+
+  const plans = [
+    {
+      name: t('pricing.plan1.name'),
+      price: t('pricing.plan1.price'),
+      period: t('pricing.plan1.period'),
+      description: t('pricing.plan1.description'),
+      features: t('pricing.plan1.features').split(','),
+      highlighted: false,
+      cta: t('pricing.plan1.cta'),
+    },
+    {
+      name: t('pricing.plan2.name'),
+      price: t('pricing.plan2.price'),
+      period: t('pricing.plan2.period'),
+      description: t('pricing.plan2.description'),
+      features: t('pricing.plan2.features').split(','),
+      highlighted: true,
+      cta: t('pricing.plan2.cta'),
+    },
+    {
+      name: t('pricing.plan3.name'),
+      price: t('pricing.plan3.price'),
+      period: t('pricing.plan3.period'),
+      description: t('pricing.plan3.description'),
+      features: t('pricing.plan3.features').split(','),
+      highlighted: false,
+      cta: t('pricing.plan3.cta'),
+    },
+  ];
+
   return (
     <section id="planes" className="section-padding bg-brand-black">
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
-          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">Planes</p>
+          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">{t('pricing.label')}</p>
           <h2 className="text-display-lg font-display font-bold tracking-tight mb-5">
-            Invertí en tu <span className="glow-text">Transformación</span>
+            {t('pricing.title')} <span className="glow-text">{t('pricing.titleHighlight')}</span>
           </h2>
           <p className="text-zinc-400 max-w-2xl mx-auto text-lg md:text-xl">
-            Empezá gratis. Escalá según tu madurez. Sin costos ocultos.
+            {t('pricing.subtitle')}
           </p>
         </div>
 
@@ -74,7 +61,7 @@ export default function Pricing() {
             >
               {plan.highlighted && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-purple text-white text-xs font-bold px-5 py-1.5 rounded-full uppercase tracking-wider shadow-lg">
-                  Más popular
+                  {t('pricing.popular')}
                 </div>
               )}
 

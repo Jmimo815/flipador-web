@@ -1,11 +1,17 @@
-const metrics = [
-  { value: '14', unit: 'días', label: 'Promedio de implementación' },
-  { value: '320', unit: 'h', label: 'Horas liberadas por cliente/mes' },
-  { value: '94', unit: '%', label: 'Consultas resueltas automáticamente' },
-  { value: '20', unit: 'x', label: 'Multiplicación de producción' },
-];
+'use client';
+
+import { useI18n } from '@/lib/i18n';
 
 export default function MetricsBar() {
+  const { t } = useI18n();
+
+  const metrics = [
+    { value: '14', unit: t('metrics.unit.days'), label: t('metrics.1.label') },
+    { value: '320', unit: t('metrics.unit.hours'), label: t('metrics.2.label') },
+    { value: '94', unit: t('metrics.unit.percent'), label: t('metrics.3.label') },
+    { value: '20', unit: t('metrics.unit.times'), label: t('metrics.4.label') },
+  ];
+
   return (
     <section className="py-20 md:py-24 bg-brand-purple">
       <div className="container mx-auto px-6">

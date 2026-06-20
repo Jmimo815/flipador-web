@@ -1,37 +1,42 @@
+'use client';
+
+import { useI18n } from '@/lib/i18n';
 import { AlertTriangle, MessageSquareOff, DollarSign } from 'lucide-react';
 
-const pains = [
-  {
-    title: 'Saturación de Herramientas',
-    desc: 'Usar 20 herramientas aisladas no es optimizar; es crear ruido administrativo. Diseñamos ecosistemas integrados donde el flujo de datos es invisible.',
-    icon: AlertTriangle,
-    accent: 'from-purple-600 to-purple-800',
-  },
-  {
-    title: 'La Falacia del Prompt',
-    desc: 'Un prompt mágico no soluciona un proceso roto. Implementamos arquitecturas de IA reales (RAG, Agentes) que resuelven problemas.',
-    icon: MessageSquareOff,
-    accent: 'from-zinc-700 to-zinc-900',
-  },
-  {
-    title: 'Eficiencia de Costos',
-    desc: 'Suscripciones masivas sin estrategia es quemar capital. Optimizamos con Sovereign AI para reducir costos sin sacrificar potencia.',
-    icon: DollarSign,
-    accent: 'from-purple-600 to-purple-800',
-  },
-];
-
 export default function PainSection() {
+  const { t } = useI18n();
+
+  const pains = [
+    {
+      title: t('pain.1.title'),
+      desc: t('pain.1.desc'),
+      icon: AlertTriangle,
+      accent: 'from-purple-600 to-purple-800',
+    },
+    {
+      title: t('pain.2.title'),
+      desc: t('pain.2.desc'),
+      icon: MessageSquareOff,
+      accent: 'from-zinc-700 to-zinc-900',
+    },
+    {
+      title: t('pain.3.title'),
+      desc: t('pain.3.desc'),
+      icon: DollarSign,
+      accent: 'from-purple-600 to-purple-800',
+    },
+  ];
+
   return (
     <section className="section-padding bg-zinc-50 text-brand-black">
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
-          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">El problema</p>
+          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">{t('pain.label')}</p>
           <h2 className="text-display-lg font-display font-bold tracking-tight mb-5">
-            El Laberinto de la IA
+            {t('pain.title')}
           </h2>
           <p className="text-zinc-500 max-w-2xl mx-auto text-lg md:text-xl italic">
-            Saliendo de la fase de “operador” hacia la maestría estratégica.
+            {t('pain.subtitle')}
           </p>
         </div>
 

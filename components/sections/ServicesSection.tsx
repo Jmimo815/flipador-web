@@ -1,47 +1,52 @@
+'use client';
+
+import { useI18n } from '@/lib/i18n';
 import { Briefcase, Shield, GraduationCap, Workflow } from 'lucide-react';
 
-const services = [
-  {
-    tag: 'Enterprise',
-    title: 'Consultoría Estratégica',
-    desc: 'Auditoría de procesos y diseño de un roadmap de IA personalizado para maximizar el ROI.',
-    icon: Briefcase,
-    cta: 'Auditar mi proceso',
-  },
-  {
-    tag: 'Sovereign',
-    title: 'Sovereign AI Setup',
-    desc: 'Despliegue de modelos LLM locales para privacidad absoluta y costo cero en tokens.',
-    icon: Shield,
-    cta: 'Desplegar Sovereign AI',
-  },
-  {
-    tag: 'Academy',
-    title: 'Taller de Desmitificación',
-    desc: 'Capacitación intensiva para equipos: transformando el miedo en maestría tecnológica.',
-    icon: GraduationCap,
-    cta: 'Reservar taller',
-  },
-  {
-    tag: 'Efficiency',
-    title: 'Flujos Autónomos',
-    desc: 'Integraciones inteligentes que eliminan el trabajo repetitivo y liberan tiempo.',
-    icon: Workflow,
-    cta: 'Automatizar operaciones',
-  },
-];
-
 export default function ServicesSection() {
+  const { t } = useI18n();
+
+  const services = [
+    {
+      tag: t('services.1.tag'),
+      title: t('services.1.title'),
+      desc: t('services.1.desc'),
+      icon: Briefcase,
+      cta: t('services.1.cta'),
+    },
+    {
+      tag: t('services.2.tag'),
+      title: t('services.2.title'),
+      desc: t('services.2.desc'),
+      icon: Shield,
+      cta: t('services.2.cta'),
+    },
+    {
+      tag: t('services.3.tag'),
+      title: t('services.3.title'),
+      desc: t('services.3.desc'),
+      icon: GraduationCap,
+      cta: t('services.3.cta'),
+    },
+    {
+      tag: t('services.4.tag'),
+      title: t('services.4.title'),
+      desc: t('services.4.desc'),
+      icon: Workflow,
+      cta: t('services.4.cta'),
+    },
+  ];
+
   return (
     <section id="servicios" className="section-padding bg-zinc-50 text-brand-black">
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
-          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">Servicios</p>
+          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">{t('services.label')}</p>
           <h2 className="text-display-lg font-display font-bold tracking-tight mb-5">
-            Nuestras Puertas Abiertas
+            {t('services.title')}
           </h2>
           <p className="text-zinc-500 max-w-2xl mx-auto text-lg md:text-xl">
-            Toma el control de tu infraestructura tecnológica con soluciones de alto impacto.
+            {t('services.subtitle')}
           </p>
         </div>
 

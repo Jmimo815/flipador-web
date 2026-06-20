@@ -1,4 +1,10 @@
+'use client';
+
+import { useI18n } from '@/lib/i18n';
+
 export default function Hero() {
+  const { t } = useI18n();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background layers */}
@@ -17,15 +23,14 @@ export default function Hero() {
 
         {/* Headline — bold and modern */}
         <h1 className="text-display-xl font-display font-bold tracking-tighter mb-8 animate-fade-up">
-          Deja de operar la IA.
+          {t('hero.headline1')}
           <br />
-          <span className="glow-text">Comienza a dirigirla.</span>
+          <span className="glow-text">{t('hero.headline2')}</span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl lg:text-2xl text-zinc-400 max-w-3xl mx-auto mb-14 leading-relaxed animate-fade-in">
-          Implementá agentes IA privados en <span className="text-white font-semibold">14 días</span>.
-          Sin APIs externas. Sin fugas de datos. Tu equipo opera, no es reemplazado.
+          {t('hero.subtitle1')} <span className="text-white font-semibold">14 {t('hero.days')}</span>. {t('hero.subtitle2')}
         </p>
 
         {/* CTAs */}
@@ -34,7 +39,7 @@ export default function Hero() {
             href="#servicios"
             className="inline-flex items-center justify-center bg-brand-purple hover:bg-purple-600 text-white px-10 py-5 text-lg font-bold rounded-full transition-all hover:scale-105 hover:shadow-xl hover:shadow-purple-500/30"
           >
-            Abrir mi puerta al futuro
+            {t('hero.cta.primary')}
             <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
@@ -43,7 +48,7 @@ export default function Hero() {
             href="#metodo"
             className="inline-flex items-center text-zinc-400 hover:text-white font-semibold transition-colors group text-lg"
           >
-            Descubre el Método ∀
+            {t('hero.cta.secondary')}
             <span className="group-hover:translate-x-2 transition-transform ml-1 font-bold">→</span>
           </a>
         </div>

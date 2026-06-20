@@ -1,18 +1,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-
-const navLinks = [
-  { label: 'Método', href: '#metodo' },
-  { label: 'Servicios', href: '#servicios' },
-  { label: 'Casos', href: '#casos' },
-  { label: 'Testimonios', href: '#testimonios' },
-  { label: 'Planes', href: '#planes' },
-  { label: 'FAQ', href: '#faq' },
-];
+import { useI18n } from '@/lib/i18n';
+import LanguageToggle from './LanguageToggle';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const { t } = useI18n();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,6 +15,15 @@ export default function Navbar() {
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const navLinks = [
+    { label: t('nav.metodo'), href: '#metodo' },
+    { label: t('nav.servicios'), href: '#servicios' },
+    { label: t('nav.casos'), href: '#casos' },
+    { label: t('nav.testimonios'), href: '#testimonios' },
+    { label: t('nav.planes'), href: '#planes' },
+    { label: t('nav.faq'), href: '#faq' },
+  ];
 
   return (
     <nav
@@ -55,18 +58,20 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="text-sm font-semibold text-brand-purple hover:text-purple-400 transition-colors"
           >
-            Contactar
+            {t('nav.contactar')}
           </a>
+          <LanguageToggle />
         </div>
 
-        <div className="md:hidden">
+        <div className="md:hidden flex items-center gap-4">
+          <LanguageToggle />
           <a
             href="https://tally.so/r/vGKy58"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-semibold text-brand-purple"
           >
-            Contactar
+            {t('nav.contactar')}
           </a>
         </div>
       </div>

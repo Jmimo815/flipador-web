@@ -2,44 +2,28 @@
 
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
-
-const faqs = [
-  {
-    q: '¿Mis datos quedan privados o van a la nube pública?',
-    a: 'Sovereign AI significa que tus datos NUNCA salen de tu infraestructura. Desplegamos modelos LLM locales o en tu VPC privada. Cero APIs externas, cero fuga de información.',
-  },
-  {
-    q: '¿Cuánto dura implementar una solución?',
-    a: 'Nuestro promedio es 14 días para el MVP operativo. El taller de desmitificación toma 5 días. La transformación completa se programa en ciclos de 90 días.',
-  },
-  {
-    q: '¿Mi equipo necesita saber programar?',
-    a: 'No. Diseñamos interfaces donde el humano supervisa y decide, mientras los agentes ejecutan. Capacitamos a tu equipo en el uso operativo, no en código.',
-  },
-  {
-    q: '¿Qué es exactamente Sovereign AI?',
-    a: 'Es la capacidad de operar inteligencia artificial con datos propios, modelos propios y control total. Sin depender de APIs de terceros ni exponer información sensible.',
-  },
-  {
-    q: '¿Funciona con cualquier modelo de IA?',
-    a: 'Sí. Evaluamos tu caso y recomendamos el stack óptimo: Llama, Mistral, Claude, GPT-4, o combinaciones híbridas. La arquitectura se adapta a tu realidad, no al revés.',
-  },
-  {
-    q: '¿Cómo empiezo?',
-    a: 'Agendá un Diagnóstico IA gratuito de 30 minutos. Identificamos oportunidades, medimos madurez y priorizamos un roadmap. Sin compromiso.',
-  },
-];
+import { useI18n } from '@/lib/i18n';
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const { t } = useI18n();
+
+  const faqs = [
+    { q: t('faq.1.q'), a: t('faq.1.a') },
+    { q: t('faq.2.q'), a: t('faq.2.a') },
+    { q: t('faq.3.q'), a: t('faq.3.a') },
+    { q: t('faq.4.q'), a: t('faq.4.a') },
+    { q: t('faq.5.q'), a: t('faq.5.a') },
+    { q: t('faq.6.q'), a: t('faq.6.a') },
+  ];
 
   return (
     <section id="faq" className="section-padding bg-brand-black border-y border-white/5">
       <div className="container mx-auto px-6 max-w-3xl">
         <div className="text-center mb-20">
-          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">Preguntas frecuentes</p>
+          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">{t('faq.label')}</p>
           <h2 className="text-display-lg font-display font-bold tracking-tight">
-            Resolvemos tus <span className="glow-text">dudas</span>
+            {t('faq.title')} <span className="glow-text">{t('faq.titleHighlight')}</span>
           </h2>
         </div>
 
