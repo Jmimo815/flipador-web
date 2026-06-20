@@ -37,7 +37,6 @@ export default function Navbar() {
             alt="FLIP∀DOOR"
             className="h-8 w-auto object-contain"
           />
-          <span className="font-display font-bold text-white text-lg tracking-tight">FLIP∀DOOR</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
