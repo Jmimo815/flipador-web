@@ -53,10 +53,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang={locale} className="dark">
-      <head>
-        <JsonLd />
-      </head>
       <body className="font-sans">
+        <JsonLd />
         <I18nProvider>
           <I18nHtml>{children}</I18nHtml>
         </I18nProvider>
