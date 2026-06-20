@@ -1,11 +1,6 @@
 import type { Metadata } from 'next';
-import dynamic from 'next/dynamic';
+import ColorBendsProvider from '@/components/ColorBendsProvider';
 import './globals.css';
-
-const ColorBends = dynamic(
-  () => import('@/components/ColorBends'),
-  { ssr: false }
-);
 
 export const metadata: Metadata = {
   title: 'FLIP∀DOOR — AI-Powered Content Intelligence',
@@ -34,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta charSet="utf-8" />
       </head>
       <body className="font-sans relative">
-        <ColorBends
+        <ColorBendsProvider
           colors={bgColors}
           speed={0.15}
           scale={1.2}
