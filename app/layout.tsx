@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import ColorBendsProvider from '@/components/ColorBendsProvider';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -14,32 +13,10 @@ export const metadata: Metadata = {
   },
 };
 
-const bgColors = [
-  '#0a0a0a',
-  '#120421',
-  '#452476',
-  '#1e0f33',
-  '#2d1b4e',
-];
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className="dark">
-      <body className="font-sans relative">
-        <ColorBendsProvider
-          colors={bgColors}
-          speed={0.15}
-          scale={1.2}
-          frequency={0.8}
-          warpStrength={0.7}
-          intensity={1.2}
-          noise={0.08}
-          bandWidth={5}
-          rotation={45}
-          transparent
-        />
-        <div className="relative z-10">{children}</div>
-      </body>
+      <body className="font-sans">{children}</body>
     </html>
   );
 }
