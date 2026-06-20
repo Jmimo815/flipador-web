@@ -1,11 +1,7 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
-
-gsap.registerPlugin(ScrollTrigger);
 
 const faqs = [
   {
@@ -35,32 +31,14 @@ const faqs = [
 ];
 
 export default function FAQ() {
-  const sectionRef = useRef<HTMLElement>(null);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      gsap.from('.faq-item', {
-        y: 40,
-        duration: 0.6,
-        stagger: 0.1,
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: sectionRef.current,
-          start: 'top 80%',
-          toggleActions: 'play none none none',
-        },
-      });
-    }, sectionRef);
-    return () => ctx.revert();
-  }, []);
-
   return (
-    <section ref={sectionRef} id="faq" className="section-padding bg-brand-black border-y border-white/5">
+    <section id="faq" className="section-padding bg-brand-black border-y border-white/5">
       <div className="container mx-auto px-6 max-w-3xl">
-        <div className="text-center mb-16">
-          <p className="text-brand-purple text-sm font-semibold uppercase tracking-widest mb-4">Preguntas frecuentes</p>
-          <h2 className="text-3xl md:text-5xl font-display font-bold mb-4 tracking-tight">
+        <div className="text-center mb-20">
+          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">Preguntas frecuentes</p>
+          <h2 className="text-display-lg font-display font-bold tracking-tight">
             Resolvemos tus <span className="glow-text">dudas</span>
           </h2>
         </div>
@@ -71,7 +49,7 @@ export default function FAQ() {
             return (
               <div
                 key={i}
-                className={`faq-item rounded-2xl border transition-all duration-300 ${
+                className={`rounded-2xl border transition-all duration-300 ${
                   isOpen
                     ? 'bg-white/5 border-white/10'
                     : 'bg-transparent border-white/5 hover:border-white/10'
@@ -82,9 +60,9 @@ export default function FAQ() {
                   onClick={() => setOpenIndex(isOpen ? null : i)}
                   aria-expanded={isOpen}
                 >
-                  <span className="text-white font-semibold pr-4">{faq.q}</span>
+                  <span className="text-white font-semibold pr-4 text-base md:text-lg">{faq.q}</span>
                   <ChevronDown
-                    className={`w-5 h-5 text-brand-purple flex-shrink-0 transition-transform duration-300 ${
+                    className={`w-6 h-6 text-brand-purple flex-shrink-0 transition-transform duration-300 ${
                       isOpen ? 'rotate-180' : ''
                     }`}
                   />
@@ -94,7 +72,7 @@ export default function FAQ() {
                     isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                   }`}
                 >
-                  <div className="px-6 pb-6 text-zinc-400 leading-relaxed">{faq.a}</div>
+                  <div className="px-6 pb-6 text-zinc-400 leading-relaxed text-base">{faq.a}</div>
                 </div>
               </div>
             );

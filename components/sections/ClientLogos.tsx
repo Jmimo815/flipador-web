@@ -1,20 +1,20 @@
-export default function ClientLogos() {
-  const clients = [
-    'Consultora Regional',
-    'Agencia de Contenido',
-    'Tech Startup',
-    'Firma Legal',
-    'Universidad',
-    'Industria 4.0',
-  ];
+const clients = [
+  'Consultora Regional',
+  'Agencia de Contenido',
+  'Tech Startup',
+  'Firma Legal',
+  'Universidad',
+  'Industria 4.0',
+];
 
+export default function ClientLogos() {
   return (
-    <section className="py-12 border-y border-white/5">
+    <section className="py-16 bg-brand-black border-b border-white/5">
       <div className="container mx-auto px-6 text-center">
-        <p className="text-zinc-500 text-xs uppercase tracking-[0.2em] mb-8 font-semibold">
+        <p className="text-zinc-600 text-xs uppercase tracking-[0.25em] mb-10 font-bold">
           Confían en nuestro método
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-10 opacity-40 grayscale hover:grayscale-0 transition-all duration-700">
+        <div className="flex flex-wrap items-center justify-center gap-10 md:gap-14 opacity-40 hover:opacity-70 transition-opacity duration-700">
           {clients.map((client) => (
             <span
               key={client}

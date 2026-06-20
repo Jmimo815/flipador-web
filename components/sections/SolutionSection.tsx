@@ -64,12 +64,12 @@ export default function SolutionSection() {
   return (
     <section id="metodo" className="section-padding bg-brand-black text-white overflow-hidden">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <p className="text-brand-purple text-sm font-semibold uppercase tracking-widest mb-4">El método</p>
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-display font-bold mb-4 tracking-tight">
-            El Método&nbsp;<span className="glow-text">∀</span>
+        <div className="text-center mb-20">
+          <p className="text-brand-purple text-sm font-bold uppercase tracking-[0.2em] mb-4">El método</p>
+          <h2 className="text-display-lg font-display font-bold tracking-tight mb-5">
+            El Método <span className="glow-text">∀</span>
           </h2>
-          <p className="text-zinc-400 max-w-2xl mx-auto text-lg">
+          <p className="text-zinc-400 max-w-2xl mx-auto text-lg md:text-xl">
             Adaptabilidad universal para abrir oportunidades reales.
           </p>
         </div>
@@ -92,14 +92,14 @@ export default function SolutionSection() {
             return (
               <div
                 key={p.title}
-                className={`${cardClass} p-10 md:p-12 rounded-3xl transition-all duration-500 hover:scale-[1.02] hover:shadow-xl cursor-pointer ${
+                className={`${cardClass} p-10 md:p-14 rounded-3xl transition-all duration-500 hover:scale-[1.02] hover:shadow-xl cursor-pointer ${
                   p.wide ? 'md:col-span-2' : 'md:col-span-1'
                 }`}
                 onClick={() => setActiveCase(i)}
               >
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">{p.title}</h3>
-                <p className="text-lg opacity-80 leading-relaxed mb-6">{p.desc}</p>
-                <button className={`${btnClass} px-5 py-2.5 rounded-full text-sm font-semibold transition-all`}>
+                <p className="text-lg opacity-85 leading-relaxed mb-8">{p.desc}</p>
+                <button className={`${btnClass} px-6 py-3 rounded-full text-sm font-bold transition-all`}>
                   {p.cta}
                 </button>
               </div>
@@ -111,37 +111,37 @@ export default function SolutionSection() {
       {/* Case Study Modal */}
       {activeCase !== null && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md"
           onClick={() => setActiveCase(null)}
         >
           <div
-            className="bg-brand-black border border-white/10 rounded-3xl max-w-2xl w-full p-8 md:p-10 relative shadow-2xl"
+            className="bg-brand-black border border-white/10 rounded-3xl max-w-2xl w-full p-10 md:p-12 relative shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             <button
               onClick={() => setActiveCase(null)}
-              className="absolute top-4 right-4 text-zinc-500 hover:text-white transition-colors"
+              className="absolute top-5 right-5 text-zinc-500 hover:text-white transition-colors"
             >
-              <X className="w-6 h-6" />
+              <X className="w-7 h-7" />
             </button>
 
-            <p className="text-brand-purple text-xs font-bold uppercase tracking-widest mb-2">Caso de uso</p>
-            <h3 className="text-2xl md:text-3xl font-display font-bold mb-8">
+            <p className="text-brand-purple text-xs font-bold uppercase tracking-widest mb-3">Caso de uso</p>
+            <h3 className="text-2xl md:text-3xl font-display font-bold mb-10">
               {pillars[activeCase].caseStudy.title}
             </h3>
 
-            <div className="space-y-6">
+            <div className="space-y-8">
               <div>
-                <h4 className="text-sm font-semibold text-red-400 uppercase tracking-wider mb-2">Problema</h4>
+                <h4 className="text-sm font-bold text-red-400 uppercase tracking-wider mb-3">Problema</h4>
                 <p className="text-zinc-300 leading-relaxed">{pillars[activeCase].caseStudy.problem}</p>
               </div>
               <div>
-                <h4 className="text-sm font-semibold text-brand-purple uppercase tracking-wider mb-2">Solución</h4>
+                <h4 className="text-sm font-bold text-brand-purple uppercase tracking-wider mb-3">Solución</h4>
                 <p className="text-zinc-300 leading-relaxed">{pillars[activeCase].caseStudy.solution}</p>
               </div>
-              <div className="bg-brand-purple/20 border border-brand-purple/30 rounded-2xl p-5">
-                <h4 className="text-sm font-semibold text-green-400 uppercase tracking-wider mb-2">Resultado</h4>
-                <p className="text-white leading-relaxed font-medium">{pillars[activeCase].caseStudy.result}</p>
+              <div className="bg-brand-purple/20 border border-brand-purple/30 rounded-2xl p-6">
+                <h4 className="text-sm font-bold text-green-400 uppercase tracking-wider mb-3">Resultado</h4>
+                <p className="text-white leading-relaxed font-bold text-lg">{pillars[activeCase].caseStudy.result}</p>
               </div>
             </div>
           </div>
