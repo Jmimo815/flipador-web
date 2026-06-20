@@ -31,7 +31,7 @@ export default function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2">
           <img
             src="/brand/ISOTIPO_FLIPADOOR-removebg-preview.png"
             alt="FLIP∀DOOR"
