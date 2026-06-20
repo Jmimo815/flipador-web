@@ -7,28 +7,20 @@ export default function LanguageToggle() {
 
   return (
     <div className="flex items-center bg-white/5 border border-white/10 rounded-full p-1">
-      <button
-        onClick={() => setLocale('es')}
-        className={`px-3 py-1 text-xs font-bold rounded-full transition-all ${
-          locale === 'es'
-            ? 'bg-brand-purple text-white shadow-md'
-            : 'text-zinc-400 hover:text-white'
-        }`}
-        aria-label="Cambiar a español"
-      >
-        ES
-      </button>
-      <button
-        onClick={() => setLocale('en')}
-        className={`px-3 py-1 text-xs font-bold rounded-full transition-all ${
-          locale === 'en'
-            ? 'bg-brand-purple text-white shadow-md'
-            : 'text-zinc-400 hover:text-white'
-        }`}
-        aria-label="Switch to English"
-      >
-        EN
-      </button>
+      {(['es', 'en', 'de'] as const).map((l) => (
+        <button
+          key={l}
+          onClick={() => setLocale(l)}
+          className={`px-2.5 py-1 text-xs font-bold rounded-full transition-all ${
+            locale === l
+              ? 'bg-brand-purple text-white shadow-md'
+              : 'text-zinc-400 hover:text-white'
+          }`}
+          aria-label={l === 'es' ? 'Cambiar a español' : l === 'en' ? 'Switch to English' : 'Auf Deutsch wechseln'}
+        >
+          {l.toUpperCase()}
+        </button>
+      ))}
     </div>
   );
 }
