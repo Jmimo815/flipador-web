@@ -59,6 +59,11 @@
   to   { opacity: 1; transform: scale(1); }
 }
 
+.pre-animate {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
 /* Subtle animated grain texture overlay */
 .grain::before {
   content: '';

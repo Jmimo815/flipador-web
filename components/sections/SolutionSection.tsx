@@ -3,10 +3,19 @@
 import { useState } from 'react';
 import { X } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
+import { formTranslations } from '@/lib/formTranslations';
+
+const caseSlugs = [
+  'liberar-talento',
+  'democratizar-conocimiento',
+  'cerrar-brecha',
+  'optimizar-agilidad',
+];
 
 export default function SolutionSection() {
   const [activeCase, setActiveCase] = useState<number | null>(null);
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const ft = formTranslations[locale];
 
   const pillars = [
     {
@@ -145,6 +154,14 @@ export default function SolutionSection() {
                 <h4 className="text-sm font-bold text-green-400 uppercase tracking-wider mb-3">{t('method.modal.result')}</h4>
                 <p className="text-white leading-relaxed font-bold text-lg">{pillars[activeCase].caseStudy.result}</p>
               </div>
+            </div>
+            <div className="mt-8 pt-8 border-t border-white/10 text-center">
+              <a
+                href={`/casos/${caseSlugs[activeCase]}`}
+                className="inline-flex items-center text-brand-purple font-bold hover:underline"
+              >
+                {ft['casestudy.readMore']}
+              </a>
             </div>
           </div>
         </div>

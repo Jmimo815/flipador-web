@@ -1,9 +1,15 @@
 'use client';
 
+import { useState } from 'react';
 import { useI18n } from '@/lib/i18n';
+import ContactModal from '@/components/ContactModal';
+import ContactForm from '@/components/ContactForm';
+import { formTranslations } from '@/lib/formTranslations';
 
 export default function CTASection() {
-  const { t } = useI18n();
+  const [contactOpen, setContactOpen] = useState(false);
+  const { t, locale } = useI18n();
+  const ft = formTranslations[locale];
 
   return (
     <section id="contacto" className="relative py-28 md:py-40 overflow-hidden">
@@ -30,16 +36,17 @@ export default function CTASection() {
               <path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.932 11.932 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.239 0-4.332-.717-6.033-1.935l-.422-.305-3.1 1.04 1.04-3.1-.305-.422A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
             </svg>
           </a>
-          <a
-            href="https://tally.so/r/vGKy58"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => setContactOpen(true)}
             className="inline-flex items-center justify-center border-2 border-white/40 text-white px-10 py-5 text-lg font-bold rounded-full hover:bg-white/10 hover:border-white/70 transition-all"
           >
             {t('cta.email')}
-          </a>
+          </button>
         </div>
       </div>
+      <ContactModal open={contactOpen} onClose={() => setContactOpen(false)} title={ft['contact.title']}>
+        <ContactForm />
+      </ContactModal>
     </section>
   );
 }

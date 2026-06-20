@@ -1,6 +1,8 @@
 'use client';
 
+import Image from 'next/image';
 import { useI18n } from '@/lib/i18n';
+import NewsletterForm from '@/components/NewsletterForm';
 
 export default function Footer() {
   const { t } = useI18n();
@@ -9,13 +11,16 @@ export default function Footer() {
     <footer className="py-12 bg-brand-black border-t border-white/5">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          {/* Brand */}
-          <div className="flex flex-col items-center md:items-start gap-2">
-            <img
+          {/* Brand + Newsletter */}
+          <div className="flex flex-col items-center md:items-start gap-4">
+            <Image
               src="/brand/BLOKE TEXTO FLIPADOR.png"
               alt="FLIP∀DOOR"
+              width={160}
+              height={40}
               className="h-10 w-auto object-contain"
             />
+            <NewsletterForm />
           </div>
 
           {/* Links */}

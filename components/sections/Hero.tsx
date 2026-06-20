@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useI18n } from '@/lib/i18n';
 
 export default function Hero() {
@@ -14,9 +15,12 @@ export default function Hero() {
       <div className="container mx-auto px-6 text-center relative z-10">
         {/* Logo */}
         <div className="mb-12 animate-fade-up">
-          <img
+          <Image
             src="/brand/ISOTIPO_FLIPADOOR-removebg-preview.png"
             alt="FLIP∀DOOR"
+            width={176}
+            height={176}
+            priority
             className="h-28 md:h-44 w-auto mx-auto object-contain drop-shadow-2xl"
           />
         </div>
