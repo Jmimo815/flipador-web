@@ -42,7 +42,6 @@ export default function FAQ() {
     const ctx = gsap.context(() => {
       gsap.from('.faq-item', {
         y: 40,
-        opacity: 0,
         duration: 0.6,
         stagger: 0.1,
         ease: 'power3.out',

@@ -46,7 +46,6 @@ export default function ServicesSection() {
     const ctx = gsap.context(() => {
       gsap.from('.service-card', {
         y: 60,
-        opacity: 0,
         duration: 0.8,
         stagger: 0.15,
         ease: 'power3.out',

@@ -63,7 +63,6 @@ export default function Pricing() {
     const ctx = gsap.context(() => {
       gsap.from('.pricing-card', {
         y: 60,
-        opacity: 0,
         duration: 0.8,
         stagger: 0.15,
         ease: 'power3.out',

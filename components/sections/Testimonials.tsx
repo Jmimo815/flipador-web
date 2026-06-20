@@ -36,7 +36,6 @@ export default function Testimonials() {
     const ctx = gsap.context(() => {
       gsap.from('.testimonial-card', {
         y: 60,
-        opacity: 0,
         duration: 0.8,
         stagger: 0.15,
         ease: 'power3.out',

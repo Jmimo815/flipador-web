@@ -21,7 +21,6 @@ export default function MetricsBar() {
     const ctx = gsap.context(() => {
       // Reveal animation
       gsap.from(sectionRef.current, {
-        opacity: 0,
         y: 40,
         duration: 0.8,
         ease: 'power3.out',
