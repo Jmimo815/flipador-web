@@ -1,0 +1,123 @@
+═══════════════════════════════════════════════════════════════
+INFOGRAFÍA #06 — 7 MITOS DE LA IA EN EMPRESAS
+"Lo que crees que sabés y no es verdad."
+═══════════════════════════════════════════════════════════════
+
+FORMATO: Vertical / Carousel LinkedIn (1080x1350 px)
+TONO: Provocador + Humor seco
+PUBLICO: C-suite, Líderes de equipo, Emprendedores
+
+─────────────────────────────────────────────────────────────
+SLIDE 1 — HOOK
+─────────────────────────────────────────────────────────────
+[TEXTO GRANDE]
+"7 COSAS QUE TU CEO CREE SOBRE LA IA
+ Y NO SON VERDAD"
+
+[Subtítulo]
+Hilo de la cruda realidad. Sin filtros.
+
+─────────────────────────────────────────────────────────────
+SLIDE 2 — MITO 1
+─────────────────────────────────────────────────────────────
+[Ícono: X rojo grande]
+MITO: "La IA reemplazará a mi equipo."
+
+[Ícono: Check verde grande]
+REALIDAD: La IA que reemplaza, fracasa. La IA que potencia, escala.
+
+[Cita]
+"En 14 días nuestro equipo pasó de 'amenazado' a 'potenciado'.
+ Nadie perdió el trabajo. Ganaron tiempo."
+— COO, Consultora Regional
+
+─────────────────────────────────────────────────────────────
+SLIDE 3 — MITO 2
+─────────────────────────────────────────────────────────────
+[Ícono: X rojo grande]
+MITO: "Necesitamos un equipo de programadores."
+
+[Ícono: Check verde grande]
+REALIDAD: Diseñamos interfaces donde el humano supervisa y decide.
+  El equipo aprende a operar agentes, no a codearlos.
+
+[Dato]
+94% de nuestros clientes: cero experiencia previa en IA.
+Promedio de adopción: 5 días.
+
+─────────────────────────────────────────────────────────────
+SLIDE 4 — MITO 3
+─────────────────────────────────────────────────────────────
+[Ícono: X rojo grande]
+MITO: "Es demasiado caro para una empresa como la nuestra."
+
+[Ícono: Check verde grande]
+REALIDAD: El Sovereign AI Setup arranca en USD 3K.
+  Un breach de datos promedio cuesta USD 4.45M.
+  La matemática es simple.
+
+─────────────────────────────────────────────────────────────
+SLIDE 5 — MITO 4
+─────────────────────────────────────────────────────────────
+[Ícono: X rojo grande]
+MITO: "Los prompts mágicos solucionan los procesos."
+
+[Ícono: Check verde grande]
+REALIDAD: Un prompt brillante no arregla un pipeline roto.
+  Necesitás arquitectura, no magia.
+
+[Quote]
+"Un prompt mágico es como una llave dorada para una puerta podrida."
+
+─────────────────────────────────────────────────────────────
+SLIDE 6 — MITO 5
+─────────────────────────────────────────────────────────────
+[Ícono: X rojo grande]
+MITO: "La IA en la nube es igual de segura que la local."
+
+[Ícono: Check verde grande]
+REALIDAD: Cada prompt a una API externa es un dato que ya no controlás.
+  La Ley 1581 de Colombia existe por algo.
+
+[Stat]
+73% de fugas de datos empresariales involucran terceros cloud.
+
+─────────────────────────────────────────────────────────────
+SLIDE 7 — MITO 6
+─────────────────────────────────────────────────────────────
+[Ícono: X rojo grande]
+MITO: "Implementar IA toma meses."
+
+[Ícono: Check verde grande]
+REALIDAD: Nuestro promedio es 14 días para MVP operativo.
+  5 días para taller + 9 días de acompañamiento.
+
+[Timeline mini]
+Día 5: Primer agente corriendo.
+Día 14: Ecosistema operativo.
+Día 90: Transformación completa.
+
+─────────────────────────────────────────────────────────────
+SLIDE 8 — MITO 7
+─────────────────────────────────────────────────────────────
+[Ícono: X rojo grande]
+MITO: "La IA es solo para empresas tecnológicas."
+
+[Ícono: Check verde grande]
+REALIDAD: Nuestros mejores casos: consultoras, firmas legales, agencias de contenido, constructoras.
+  La IA es para empresas con procesos, no solo para empresas de tech.
+
+─────────────────────────────────────────────────────────────
+SLIDE 9 — CTA
+─────────────────────────────────────────────────────────────
+[Fondo púrpura]
+
+[Título]
+¿CUÁNTOS MITOS CREÉS?
+
+[CTA]
+→ AUDITÁ TU MADUREZ IA EN 30 MINUTOS GRATIS
+
+flipadoor.com
+
+═════════════════════════════════════════════════════════════

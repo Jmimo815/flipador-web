@@ -1,0 +1,143 @@
+═══════════════════════════════════════════════════════════════
+INFOGRAFÍA #04 — 5 TIPOS DE AGENTES IA
+"No todo lo que se llama agente, lo es."
+═══════════════════════════════════════════════════════════════
+
+FORMATO: Vertical / Carousel LinkedIn (1080x1350 px)
+TONO: Educativo-taxonomía + Posicionamiento experto
+PUBLICO: CTOs, Product Managers, Líderes de Innovación
+
+─────────────────────────────────────────────────────────────
+SLIDE 1 — HOOK
+─────────────────────────────────────────────────────────────
+[TEXTO GRANDE]
+"CHATBOT ≠ AGENTE"
+
+[Subtítulo]
+Conocé los 5 tipos reales de Agentes IA y qué tipo necesita tu empresa.
+
+[Stat]
+87% de los "agentes" en el mercado son chatbots con marketing.
+Fuente: Gartner AI Hype Cycle 2025.
+
+─────────────────────────────────────────────────────────────
+SLIDE 2 — TIPO 1
+─────────────────────────────────────────────────────────────
+[Número grande: 01]
+AGENTE REACTIVO
+
+[Definición]
+Recibe input → Procesa → Responde. Sin memoria.
+
+[Ejemplo]
+ChatGPT estándar, bots FAQ, asistentes básicos.
+
+[Evaluación FLIP∀DOOR]
+✓ Útil para primer nivel de atención.
+✗ No aprende de contexto. No ejecuta acciones.
+[Label: Nivel 1 — Básico]
+
+─────────────────────────────────────────────────────────────
+SLIDE 3 — TIPO 2
+─────────────────────────────────────────────────────────────
+[Número grande: 02]
+AGENTE MEMORIZANTE
+
+[Definición]
+Recibe input → Busca en memoria → Responde con contexto histórico.
+
+[Ejemplo]
+ChatGPT Plus, asistentes con historial de conversación.
+
+[Evaluación FLIP∀DOOR]
+✓ Mejor experiencia de usuario.
+✗ Sigue sin ejecutar. Sigue sin conectarse a tus sistemas.
+[Label: Nivel 2 — Intermedio]
+
+─────────────────────────────────────────────────────────────
+SLIDE 4 — TIPO 3
+─────────────────────────────────────────────────────────────
+[Número grande: 03]
+AGENTE RAG
+
+[Definición]
+Recibe input → Busca en tu documentación → Genera respuesta con fuentes propias.
+
+[Ejemplo]
+Consultor interno de RRHH, asistente legal de normativa, soporte técnico con manuales.
+
+[Evaluación FLIP∀DOOR]
+✓ Respuestas precisas con tus datos.
+✓ Cero alucinaciones.
+✗ No ejecuta acciones externas.
+[Label: Nivel 3 — Avanzado]
+
+─────────────────────────────────────────────────────────────
+SLIDE 5 — TIPO 4
+─────────────────────────────────────────────────────────────
+[Número grande: 04]
+AGENTE HERRAMIENTA (TOOL-USE)
+
+[Definición]
+Recibe input → Decide qué herramienta usar → Ejecuta → Entrega resultado.
+
+[Ejemplo]
+Agente que envía emails, agenda reuniones, genera reportes, actualiza CRM.
+
+[Evaluación FLIP∀DOOR]
+✓ Ejecuta tareas reales.
+✓ Integrado a tu stack.
+✗ Orquesta una sola tarea por vez.
+[Label: Nivel 4 — Potente]
+
+─────────────────────────────────────────────────────────────
+SLIDE 6 — TIPO 5
+─────────────────────────────────────────────────────────────
+[Número grande: 05]
+AGENTE MULTI-HERRAMIENTA (ORQUESTADOR)
+
+[Definición]
+Recibe meta → Planifica secuencia → Usa múltiples herramientas → Supervisa resultados.
+
+[Ejemplo]
+"Prepararme para la reunión del cliente ABC" →
+Busca historial + Genera resumen + Arma propuesta + Agenda follow-up + Notifica al equipo.
+
+[Evaluación FLIP∀DOOR]
+✓ Autonomía real.
+✓ Escala sin contratar más gente.
+✓ Requiere supervisión humana.
+[Label: Nivel 5 — Autónomo]
+
+─────────────────────────────────────────────────────────────
+SLIDE 7 — ESCALA DE MADUREZ
+─────────────────────────────────────────────────────────────
+[Título]
+¿QUÉ NIVEL NECESITA TU EMPRESA?
+
+[Barra de progreso visual]
+
+NIVEL 1  ████░░░░░░  Chatbot
+NIVEL 2  █████░░░░░  Memoria
+NIVEL 3  ███████░░░  RAG (documentación interna)
+NIVEL 4  ████████░░  Tool-use (ejecuta tareas)
+NIVEL 5  ██████████  Orquestador (múltiples tareas)
+
+[Texto debajo]
+FLIP∀DOOR implementa Nivel 3 al 5 en 14-90 días.
+El 80% de nuestros clientes arranca en Nivel 3 y escala.
+
+─────────────────────────────────────────────────────────────
+SLIDE 8 — CTA
+─────────────────────────────────────────────────────────────
+[Fondo púrpura]
+
+[Título]
+¿TU "AGENTE" ES SOLO UN CHATBOT CON MARKETING?
+
+[CTA]
+→ AUDITÁ TU MADUREZ IA — GRATIS, 30 MINUTOS
+
+flipadoor.com
+
+═════════════════════════════════════════════════════════════

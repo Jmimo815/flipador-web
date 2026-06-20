@@ -1,0 +1,20 @@
+═══════════════════════════════════════════════════════════════
+GUÍA VISUAL — INFOGRAFÍA #03 RAG EN 14 DÍAS
+═══════════════════════════════════════════════════════════════
+
+PALETA: misma oficial FLIP∀DOOR (#0a0a0a, #452476, #c084fc, #ffffff, #4ade80)
+
+ELEMENTOS ESPECÍFICOS
+───────────────────────────
+Slide 2: Embudo de 3 pasos. Cada paso es un rectángulo redondeado (radius 16px) con borde blanco 1px. Flechas ↓ entre ellos.
+Slide 3: Tabla con líneas divisorias grises muy sutiles (#ffffff / 10%). ANTES en gris claro, DESPUÉS en verde o blanco brillante.
+Slide 4: Diagrama de bloques. Cada bloque tiene fondo #ffffff / 5% (glass effect). Candado al final en púrpura glow.
+Slide 5: Timeline horizontal. Bloques de 3 días cada uno. Barra superior con degradado verde a púrpura.
+
+REGLAS
+───────────────────────────
+✓ Acrónimo RAG debe ir con tracking amplio en la primera aparición.
+✓ La tabla de comparación debe ser legible. Fuente Inter para las celdas.
+✓ El diagrama de arquitectura NO debe tener logos de terceros. Solo iconos genéricos.
+
+═════════════════════════════════════════════════════════════

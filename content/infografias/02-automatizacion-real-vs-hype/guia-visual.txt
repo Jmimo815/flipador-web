@@ -1,0 +1,39 @@
+═══════════════════════════════════════════════════════════════
+GUÍA VISUAL — INFOGRAFÍA #02 AUTOMATIZACIÓN REAL VS HYPE
+═══════════════════════════════════════════════════════════════
+
+PALETA
+───────────────────────────
+Background:     #0a0a0a
+Púrpura Marca:  #452476
+Glow:           #c084fc → #9333ea
+Texto:          #ffffff
+Gris:           #a3a5a5
+Alerta:         #f87171 (rojo coral)
+Éxito:          #4ade80 (verde neón)
+
+DISEÑO ESPECÍFICO ESTA INFOGRAFÍA
+───────────────────────────
+• Slide 2: Usar tono sombrío. Las X deben ser rojo coral con fondo circular oscuro.
+• Slide 3: Diagrama de 3 nodos conectados por líneas finas blancas, 1px.
+• Slide 4: Split-screen 50/50. Izquierda borde rojo (2px), derecha borde verde (2px).
+• Slide 5: Checkboxes dibujados, no emojis reales. Estilo minimalista outline.
+
+TIPOGRAFÍA
+───────────────────────────
+Titulares: Space Grotesk Bold 700
+Stats/números: Space Grotesk Bold, 5rem
+Cuerpo: Inter Regular 400
+
+ESTRUCTURA
+───────────────────────────
+6 slides verticales 1080x1350px
+Margen: 80px lados, 100px verticales
+
+REGLAS
+───────────────────────────
+✓ La frase "ruidO administrativo" se repite como concepto clave.
+✓ Los números deben contrastar mucho: blanco sobre negro, o verde/rojo sobre dark.
+✓ Nunca usar más de 2 colores de acento por slide.
+
+═════════════════════════════════════════════════════════════

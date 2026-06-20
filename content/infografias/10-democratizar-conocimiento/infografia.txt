@@ -1,0 +1,124 @@
+═══════════════════════════════════════════════════════════════
+INFOGRAFÍA #10 — DEMOCRATIZAR EL CONOCIMIENTO
+"Que el becario sepa lo mismo que el fundador."
+═══════════════════════════════════════════════════════════════
+
+FORMATO: Vertical / Carousel LinkedIn (1080x1350 px)
+TONO: Inspiracional + Igualitario
+PUBLICO: CEOs, Directores de RRHH, Líderes culturales
+
+─────────────────────────────────────────────────────────────
+SLIDE 1 — HOOK
+─────────────────────────────────────────────────────────────
+[TEXTO GIGANTE]
+"EL CONOCIMIENTO SE QUEDA
+ EN LOS CUBÍCULOS."
+
+[Subtítulo]
+Y cuando se van, se llevan la empresa con ellos.
+
+[Stat]
+El 60% del conocimiento crítico de una empresa está solo en la cabeza de 3 personas.
+Fuente: Panorama del Capital Intelectual, 2024.
+
+─────────────────────────────────────────────────────────────
+SLIDE 2 — EL PROBLEMA
+─────────────────────────────────────────────────────────────
+[Título]
+SILOS DE CONOCIMIENTO
+
+[Visual: edificio con 3 pisos separados por muros]
+
+PISO 3 — FUNDADORES
+   "Nosotros sabemos por qué hicimos eso así."
+   Pero nunca lo documentaron.
+
+PISO 2 — GERENTES SENIOR
+   "Eso está en el manual del 2019."
+   El manual está en un pendrive perdido.
+
+PISO 1 — EQUIPO OPERATIVO
+   "Llamá a María, ella sabe."
+   María acaba de renunciar.
+
+[Resultado]
+Consultas internas: 3-4 horas de espera.
+Productividad: congelada.
+
+─────────────────────────────────────────────────────────────
+SLIDE 3 — LA TRANSFORMACIÓN
+─────────────────────────────────────────────────────────────
+[Título]
+RAG = MEMORIA COLECTIVA DIGITAL
+
+[Visual: el mismo edificio, pero ahora conectado por un elevador luminoso]
+
+AGENTE RAG
+  ┌────────────────────────┐
+  │  Documentos           │
+  │  Normas               │
+  │  Manuales             │
+  │  Historial            │
+  │  Contratos            │
+  │  Conversaciones       │
+  └────────────────────────┘
+           ↓
+  "¿Cómo gestiono este caso?"
+           ↓
+  [Respuesta inmediata + cita de fuente]
+
+[Becario, Fundador, Gerente]
+Todos acceden a la misma memoria. En segundos.
+
+─────────────────────────────────────────────────────────────
+SLIDE 4 — LOS RESULTADOS
+─────────────────────────────────────────────────────────────
+[Título]
+IMPACTO REAL
+
+[3 stats gigantes]
+
+94%
+CONSULTAS RESUELTAS
+SIN INTERVENCIÓN HUMANA
+
+12s
+TIEMPO PROMEDIO
+DE RESPUESTA
+
+0
+HORAS DE ESPERA
+PARA ACCEDER AL CONOCIMIENTO
+
+─────────────────────────────────────────────────────────────
+SLIDE 5 — QUÉ SE DEMOCRATIZA
+─────────────────────────────────────────────────────────────
+[Título]
+¿QUÉ SABE TU EMPRESA Y TODOS IGNORAN?
+
+[6 ítems con íconos]
+📘 Protocolos de servicio al cliente
+📗 Normativas internas y regulatorias
+📙 Historial de casos y soluciones pasadas
+📕 Manuales técnicos dispersos en 15 carpetas
+📒 Políticas de RRHH y beneficios
+📓 Conocimiento táctico del fundador
+
+[Texto]
+Todo esto, centralizado. Accesible. En tu idioma.
+
+─────────────────────────────────────────────────────────────
+SLIDE 6 — CTA
+─────────────────────────────────────────────────────────────
+[Fondo púrpura]
+
+[Título]
+QUE EL CONOCIMIENTO TRABAJE PARA TODOS,
+ NO SOLO PARA QUIEN LO GUARDÓ.
+
+[CTA]
+→ DEMOCRATIZÁ TU CONOCIMIENTO — 14 DÍAS
+
+flipadoor.com
+
+═════════════════════════════════════════════════════════════

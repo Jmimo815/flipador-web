@@ -1,0 +1,121 @@
+═══════════════════════════════════════════════════════════════
+INFOGRAFÍA #09 — SEGURIDAD Y COMPLIANCE EN COLOMBIA
+"La Ley 1581 no es un trámite. Es tu blindaje."
+═══════════════════════════════════════════════════════════════
+
+FORMATO: Vertical / Carousel LinkedIn (1080x1350 px)
+TONO: Legal-técnico + Tranquilizador
+PUBLICO: Directores Legales, Compliance Officers, CFOs, CEOs
+
+─────────────────────────────────────────────────────────────
+SLIDE 1 — HOOK
+─────────────────────────────────────────────────────────────
+[TEXTO GRANDE]
+"SI TU IA USA APIs EXTERNAS,
+ ESTÁS VIOLANDO LA LEY 1581"
+
+[Subtítulo]
+Y tal vez ni te diste cuenta.
+
+[Stat]
+Multas por incumplimiento: hasta 2.000 SMMLV.
+Fuente: Superintendencia de Industria y Comercio.
+
+─────────────────────────────────────────────────────────────
+SLIDE 2 — LEY 1581 EN 60 SEGUNDOS
+─────────────────────────────────────────────────────────────
+[Título]
+¿QUÉ EXIGE LA LEY?
+
+[4 pilares]
+1. PRINCIPIO DE FINALIDAD
+   Los datos se recolectan para un fin específico y legítimo.
+
+2. PRINCIPIO DE RESTRICCIÓN DEL TRATAMIENTO
+   No podés usar los datos para otra cosa.
+
+3. DERECHO DEL TITULAR
+   Conocer, actualizar, rectificar y SUPRIMIR sus datos.
+
+4. MEDIDAS DE SEGURIDAD
+   Proteger los datos de acceso no autorizado.
+
+[Alerta roja]
+⚠ Mandar datos personales de clientes a APIs de terceros
+  (OpenAI, Claude, etc.) viola el principio de seguridad.
+
+─────────────────────────────────────────────────────────────
+SLIDE 3 — EL RIESGO REAL
+─────────────────────────────────────────────────────────────
+[Título]
+ESCENARIO: EMPRESA COLOMBIANA CON CHATGPT ENTERPRISE
+
+[Secuencia visual]
+
+TU CRM
+    ↓
+COPIÁS datos del cliente en ChatGPT
+    ↓
+ChatGPT almacena/entrena con esa info
+    ↓
+YA NO ES TUYA. YA NO CONTROLÁS DÓNDE TERMINA.
+    ↓
+VIOLACIÓN INDIRECTA DE LA LEY 1581
+
+[Stat]
+73% de las empresas en LATAM usan IA sin auditar dónde van los datos.
+
+─────────────────────────────────────────────────────────────
+SLIDE 4 — LA SOLUCIÓN: SOVEREIGN AI
+─────────────────────────────────────────────────────────────
+[Título]
+IMPLEMENTÁ IA SIN ROMPER LA LEY
+
+[Diagrama: todo dentro de la empresa]
+
+[TU OFICINA / VPC]
+ ┌─────────────────────────────┐
+ │  CRM ──→ Vector DB ──→ LLM │
+ │         (local)      (local)│
+ │              ↓              │
+ │         Agente Interno       │
+ │              ↓              │
+ │       Tu equipo (supervisa)  │
+ └─────────────────────────────┘
+          [NADA SALE]
+
+[Checklist verde]
+✓ Datos propios ✓ Modelos propios ✓ Control total ✓ Auditoría interna
+
+─────────────────────────────────────────────────────────────
+SLIDE 5 — COMPLIANCE BY DESIGN
+─────────────────────────────────────────────────────────────
+[Título]
+NO SUMAMOS COMPLIANCE AL FINAL.
+ LO DISEÑAMOS DESDE EL DÍA 1.
+
+[Features]
+→ Datos indexados localmente (Chroma/Qdrant/Weaviate)
+→ Modelos desplegados en tu VPC o servidor físico
+→ Logs de auditoría internos
+→ Supresión total garantizada (vos controlás la base de datos)
+→ Capacitación al equipo en política de datos
+→ Documentación de tratamiento de datos lista para la SIC
+
+─────────────────────────────────────────────────────────────
+SLIDE 6 — CTA
+─────────────────────────────────────────────────────────────
+[Fondo púrpura]
+
+[Título]
+¿AUDITASTE DÓNDE VAN LOS DATOS DE TUS CLIENTES?
+
+[Subtítulo]
+Si usás APIs externas, la respuesta probablemente te incomode.
+
+[CTA]
+→ AUDITÁ TU COMPLIANCE EN 30 MINUTOS — GRATIS
+
+flipadoor.com
+
+═════════════════════════════════════════════════════════════

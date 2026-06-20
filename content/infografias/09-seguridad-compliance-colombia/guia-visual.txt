@@ -1,0 +1,29 @@
+═══════════════════════════════════════════════════════════════
+GUÍA VISUAL — INFOGRAFÍA #09 SEGURIDAD Y COMPLIANCE EN COLOMBIA
+═══════════════════════════════════════════════════════════════
+
+PALETA OFICIAL
+───────────────────────────
+Background: #0a0a0a
+Púrpura: #452476
+Glow: #c084fc → #9333ea
+Blanco: #ffffff
+Gris: #a3a5a5
+Rojo alerta legal: #f87171
+Amarillo warning: #fbbf24
+Verde compliance: #4ade80
+
+ESTRUCTURA ESPECÍFICA
+───────────────────────────
+• Slide 2: Los 4 pilares de la Ley 1581 en 4 bloques cuadrados. Cada uno con número romano (I, II, III, IV) grande en gris.
+• Slide 3: Diagrama de flujo peligroso. Flechas rojas hacia abajo. CRM → ChatGPT → ??? → VIOLACIÓN.
+• Slide 4: Diagrama de caja feliz. Borde verde. Todo dentro de la caja. Nada sale.
+• Slide 5: Lista de features compliance con checks verdes.
+
+REGLAS
+───────────────────────────
+✓ El slide del riesgo (slide 3) debe ser visualmente inquietante: rojo sutil, flechas caídas.
+✓ El slide de la solución (slide 4) debe ser visualmente calmante: verde, caja cerrada, candado.
+✓ Nunca usar emblemas oficiales del gobierno colombiano. Usar texto plano "Ley 1581 de 2012".
+
+═════════════════════════════════════════════════════════════

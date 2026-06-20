@@ -1,0 +1,115 @@
+═══════════════════════════════════════════════════════════════
+INFOGRAFÍA #01 — SOVEREIGN AI
+"Tus datos nunca salen de tu empresa. Así debería ser toda la IA."
+═══════════════════════════════════════════════════════════════
+
+FORMATO: Vertical / Carousel LinkedIn (1080x1350 px)
+TOMO: Educativo + Posicionamiento de autoridad
+PUBLICO: CEOs, CFOs, Directores de Legal/Compliance
+
+─────────────────────────────────────────────────────────────
+SLIDE 1 — HOOK (Pantalla completa, fondo negro)
+─────────────────────────────────────────────────────────────
+[TEXTO GRANDE, CENTRADO]
+"TU CHATGPT SABE MÁS DE TU EMPRESA QUE TUS ACCIONISTAS"
+
+[Subtítulo, debajo]
+Y no hay nada que puedas hacer para borrar lo que ya leíste.
+
+[Mini-footer abajo a la derecha]
+Thread educativo por FLIP∀DOOR
+
+─────────────────────────────────────────────────────────────
+SLIDE 2 — EL PROBLEMA (Fondo degradado sutil púrpura)
+─────────────────────────────────────────────────────────────
+[Título sección]
+LA REALIDAD DE LA IA EN LA NUBE
+
+[3 bloques verticales, íconos]
+❌ 73% de las empresas en LATAM usan IA sin auditar dónde van sus datos
+   Fuente: Encuesta Cámara de Comercio Bogotá 2025
+
+❌ Cada prompt que escribís en una API externa se convierte en datos de entrenamiento
+   Para ellos. No para vos.
+
+❌ Una filtración promedio cuesta USD 4.45 millones
+   IBM Cost of Data Breach Report
+
+[Footer]
+La alternativa no es "no usar IA". Es usarla en tu terreno.
+
+─────────────────────────────────────────────────────────────
+SLIDE 3 — LA DEFINICIÓN (Fondo negro, tipografía blanca)
+─────────────────────────────────────────────────────────────
+[Título grande]
+SOVEREIGN AI
+
+[Subtítulo definición]
+Inteligencia Artificial con:
+→ Datos propios
+→ Modelos propios o bajo tu control contractual
+→ Infraestructura dentro de tu red privada (VPC o local)
+→ Zero APIs de terceros en procesos sensibles
+
+[Analogía en caja]
+"Es la diferencia entre alquilar un departamento y tener tu casa.
+   El alquiler es rápido. La casa es tuya."
+
+─────────────────────────────────────────────────────────────
+SLIDE 4 — ARQUITECTURA VISUAL (Diagrama simplificado)
+─────────────────────────────────────────────────────────────
+[Título]
+ARQUITECTURA SOBERANA EN 3 CAPAS
+
+[Visual: tres bloques apilados o en horizontal]
+
+CAPA 1 — DATOS
+   [ícono: base de datos cerrada]
+   • CRM interno • Documentos • Historial de clientes
+   SIN SALIR DE TU SERVIDOR
+
+CAPA 2 — MODELO
+   [ícono: cerebro/purple]
+   • Llama • Mistral • Modelo fine-tuneado propio
+   CORRE EN TU INFRAESTRUCTURA
+
+CAPA 3 — INTERFAZ
+   [ícono: pantalla/persona]
+   • Tu equipo pregunta • El agente responde con tus datos
+   • Human-in-the-loop siempre activo
+
+[Flecha de datos circular entre las 3 capas]
+
+─────────────────────────────────────────────────────────────
+SLIDE 5 — MITO VS FACTO (Columnas)
+─────────────────────────────────────────────────────────────
+[Título]
+MITO VS FACTO: IA PRIVADA
+
+[Mitología ~ Gris | Realidad ~ Brillo púrpura]
+
+MITO: "La IA privada es más cara que la pública"
+FACTO: El costo promedio de un breach es 200x más caro que una implementación local.
+
+MITO: "Los modelos locales son menos potentes"
+FACTO: Llama 3.1 70B supera a GPT-3.5 en benchmarks empresariales. Y corren en tu GPU.
+
+MITO: "Solo las empresas gigantes pueden tener IA propia"
+FACTO: FLIP∀DOOR implementa Sovereign AI Setup desde USD 3K. 14 días.
+
+─────────────────────────────────────────────────────────────
+SLIDE 6 — CALL TO ACTION
+─────────────────────────────────────────────────────────────
+[Fondo degradado púrpura intenso]
+
+[Título centrado]
+¿TUS DATOS VIAJAN AL EXTRANJERO CADA VEZ QUE HACÉS UNA CONSULTA?
+
+[Botón visual/texto]
+→ AGENDÁ UN DIAGNÓSTICO IA GRATUITO DE 30 MINUTOS
+
+[Abajo, chico]
+flipadoor.com
+© 2026 FLIP∀DOOR — Privacidad por diseño.
+
+═════════════════════════════════════════════════════════════

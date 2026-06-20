@@ -1,0 +1,28 @@
+═══════════════════════════════════════════════════════════════
+GUÍA VISUAL — INFOGRAFÍA #10 DEMOCRATIZAR EL CONOCIMIENTO
+═══════════════════════════════════════════════════════════════
+
+PALETA OFICIAL
+───────────────────────────
+Background: #0a0a0a
+Púrpura: #452476
+Glow: #c084fc → #9333ea
+Blanco: #ffffff
+Gris: #a3a5a5
+Azul muy sutil (solo aquí): #60a5fa (para el elevador/memoria)
+Verde: #4ade80
+
+ESTRUCTURA ESPECÍFICA
+───────────────────────────
+• Slide 2: Edificio de 3 pisos separados. Paredes gruesas grises entre pisos. Cada piso tiene una persona aislada.
+• Slide 3: Mismo edificio, pero con un elevador/tubería luminosa púrpura/azul conectando los 3 pisos. El fondo es más brillante.
+• Slide 4: 3 números gigantes. Estilo muy tipográfico.
+• Slide 5: 6 documentos con íconos. Cada documento es un rectángulo con borde púrpura sutil.
+
+REGLAS
+───────────────────────────
+✓ La metáfora del edificio es clave. Debe ser reconocible en 1 segundo.
+✓ El cambio de Slide 2 a Slide 3 debe ser un "antes/después" inmediato. Misma estructura, diferente energía.
+✓ El tono es inspiracional, no técnico. Menos jargon, más emoción.
+
+═════════════════════════════════════════════════════════════

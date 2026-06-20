@@ -1,0 +1,45 @@
+═══════════════════════════════════════════════════════════════
+GUÍA VISUAL — INFOGRAFÍA #01 SOVEREIGN AI
+═══════════════════════════════════════════════════════════════
+
+PALETA OFICIAL DE FLIP∀DOOR
+───────────────────────────
+Background Principal:   #0a0a0a  (Negro casi puro)
+Púrpura Marca:          #452476  (Violeta royal)
+Púrpura Glow:           #c084fc  (Lila brillante) → #9333ea
+Texto Principal:        #ffffff  (Blanco)
+Texto Secundario:       #a3a5a5  (Gris plata)
+Acento Problema:        #f87171  (Rojo coral)
+Acento Resultado:       #4ade80  (Verde neón)
+Gradiente Hero:         linear-gradient(135deg, #0a0a0a 0%, #1a0b2e 50%, #452476 100%)
+
+TIPOGRAFÍA
+───────────────────────────
+Display / Titulares:    Space Grotesk, Bold, 700
+Cuerpo / Descripciones: Inter, Regular/Medium, 400/500
+Números/Data:           Space Grotesk, Bold, tight tracking
+
+ESTRUCTURA DEL CAROUSEL (6 slides)
+───────────────────────────
+Formato:   1080 x 1350 px (4:5 vertical, óptimo LinkedIn/IG)
+Margen:    80px laterales, 100px superior/inferior
+Separación entre bloques: 40px
+
+ICONOGRAFÍA SUGERIDA
+───────────────────────────
+Slide 2: Database-lock, Cloud-upload-cross, Money-fire (Lucide)
+Slide 3: Shield-check, Server, Brain-circuit
+Slide 4: Layers-stack, Lock, Monitor
+Slide 5: X-circle, Check-circle (pareados)
+Slide 6: Arrow-right en círculo blanco sobre fondo púrpura
+
+REGLAS DE ESTILO FLIP∀DOOR
+───────────────────────────
+✗ No usar azules. Todo el lenguaje cromático es violeta/negro/blanco.
+✗ No bordes redondeados exagerados. Radio 12–16px máximo.
+✓ Números y porcentajes DEBEN ser muy grandes (clamp 3rem–5rem).
+✓ Cada slide debe tener un solo punto focal. No saturar.
+✓ Las estadísticas llevan fuente Space Grotesk, no Inter.
+✓ Gradientes púrpura sutil en fondos de hook y CTA.
+
+═════════════════════════════════════════════════════════════

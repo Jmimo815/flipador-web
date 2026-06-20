@@ -1,0 +1,40 @@
+═══════════════════════════════════════════════════════════════
+GUÍA VISUAL — INFOGRAFÍA #04 5 TIPOS DE AGENTES IA
+═══════════════════════════════════════════════════════════════
+
+PALETA OFICIAL FLIP∀DOOR
+───────────────────────────
+Background: #0a0a0a
+Púrpura: #452476
+Glow: #c084fc → #9333ea
+Blanco: #ffffff
+Gris: #a3a5a5
+Rojo (alerta): #f87171
+Verde (éxito): #4ade80
+
+ESTRUCTURA ESPECÍFICA
+───────────────────────────
+• 8 slides (más larga que las anteriores). Considerar carrusel de 8 o dividir en 2 posts.
+• Cada slide de tipo tiene: número grande (Space Grotesk, 6rem), nombre en bold, definición, ejemplo, evaluación en caja.
+• Label de nivel: etiqueta redondeada con fondo según nivel:
+  - Nivel 1: #f87171 / 20%
+  - Nivel 2: #fbbf24 / 20% (amarillo)
+  - Nivel 3: #60a5fa / 20% (azul muy sutil, usar con cuidado)
+  - Nivel 4: #c084fc / 20%
+  - Nivel 5: #4ade80 / 20%
+
+ICONOGRAFÍA
+───────────────────────────
+Tipo 1: MessageSquare (chat burbuja)
+Tipo 2: Brain (cerebro)
+Tipo 3: BookOpen (documento)
+Tipo 4: Wrench (herramienta)
+Tipo 5: Workflow (flujo/orquestador)
+
+REGLAS
+───────────────────────────
+✓ Los números deben dominar visualmente cada slide.
+✓ Evaluación FLIP∀DOOR en caja con borde izquierdo de 4px (color del nivel).
+✓ Slide 7 barra de progreso: rectángulos horizontales, degradado rojo → amarillo → púrpura → verde.
+
+═════════════════════════════════════════════════════════════

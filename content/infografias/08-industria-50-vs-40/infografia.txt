@@ -1,0 +1,111 @@
+═══════════════════════════════════════════════════════════════
+INFOGRAFÍA #08 — INDUSTRIA 5.0 vs 4.0
+"La fábrica ya no es el centro. El ser humano, sí."
+═══════════════════════════════════════════════════════════════
+
+FORMATO: Vertical / Carousel LinkedIn (1080x1350 px)
+TONO: Visionario + Posicionamiento macro
+PUBLICO: Directores de Innovación, Prensa económica, Inversores
+
+─────────────────────────────────────────────────────────────
+SLIDE 1 — HOOK
+─────────────────────────────────────────────────────────────
+[TEXTO MUY GRANDE]
+"INDUSTRIA 5.0
+ NO ES UNA NUEVA APP.
+ ES UNA NUEVA ÉTICA."
+
+[Subtítulo]
+De la automatización masiva a la personalización humana.
+
+─────────────────────────────────────────────────────────────
+SLIDE 2 — INDUSTRIA 4.0 (El pasado)
+─────────────────────────────────────────────────────────────
+[Número grande gris: 4.0]
+
+[Keywords]
+AUTOMATIZAR → ESCALAR → REDUCIR COSTOS → FABRICA INTELIGENTE
+
+[Iconos]
+Robot Brazo | Sensor IoT | Big Data | Nube
+
+[Limitación en caja roja]
+"El ser humano se convirtió en un sensor más de la cadena."
+
+─────────────────────────────────────────────────────────────
+SLIDE 3 — INDUSTRIA 5.0 (El presente)
+─────────────────────────────────────────────────────────────
+[Número grande púrpura: 5.0]
+
+[Keywords]
+PERSONALIZAR → POTENCIAR → RESILIENCIA → COLABORACIÓN HUMANO-MÁQUINA
+
+[Iconos]
+Persona + Robot | Privacidad | Personalización | Ética
+
+[Definición en caja púrpura]
+"Tecnología que se adapta al humano. No al revés."
+
+─────────────────────────────────────────────────────────────
+SLIDE 4 — COMPARATIVA DIRECTA
+─────────────────────────────────────────────────────────────
+[Título]
+4.0 vs 5.0
+
+[Tabla 2 columnas]
+
+| Industria 4.0               | Industria 5.0                    |
+|-----------------------------|----------------------------------|
+| IA reemplaza                | IA potencia                      |
+| Datos en la nube pública    | Datos soberanos (propios)        |
+| Escala a costa de calidad   | Personalización masiva           |
+| Dependencia de terceros     | Autonomía tecnológica             |
+| KPI: eficiencia             | KPI: eficiencia + sostenibilidad |
+| Humano adaptado a máquina   | Máquina adaptada a humano        |
+
+─────────────────────────────────────────────────────────────
+SLIDE 5 — SOVEREIGN AI COMO PILAR DE 5.0
+─────────────────────────────────────────────────────────────
+[Título]
+SIN SOBERANÍA DIGITAL, NO HAY INDUSTRIA 5.0
+
+[3 pilares visuales]
+
+PILAR 1: DATOS PROPIOS
+    Si no controlás tus datos, no podés personalizar.
+
+PILAR 2: MODELOS PROPIOS
+    Si no entrenás con tu realidad, la IA es genérica.
+
+PILAR 3: EQUIPO EMPODERADO
+    Si el humano no decide, la máquina no colabora.
+
+─────────────────────────────────────────────────────────────
+SLIDE 6 — FLIP∀DOOR Y 5.0
+─────────────────────────────────────────────────────────────
+[Título]
+IMPLEMENTAMOS INDUSTRIA 5.0 EN EMPRESAS LATAM
+
+[Bullet points]
+→ Agentes privados que potencian, no reemplazan.
+→ Arquitecturas donde el humano supervisa y decide.
+→ Datos que nunca salen de tu infraestructura.
+→ Personalización de procesos, no genéricos.
+
+[Stat]
+Somos de los pocos implementadores de Sovereign AI en Colombia.
+
+─────────────────────────────────────────────────────────────
+SLIDE 7 — CTA
+─────────────────────────────────────────────────────────────
+[Fondo púrpura]
+
+[Título]
+¿TU EMPRESA ESTÁ EN 4.0 O YA PIENSA EN 5.0?
+
+[CTA]
+→ DESCUBRÍ TU NIVEL DE MADUREZ — DIAGNÓSTICO GRATIS
+
+flipadoor.com
+
+═════════════════════════════════════════════════════════════

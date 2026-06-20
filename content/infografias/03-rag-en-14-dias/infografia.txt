@@ -1,0 +1,131 @@
+═══════════════════════════════════════════════════════════════
+INFOGRAFÍA #03 — RAG EN 14 DÍAS
+"De 15 plataformas dispersas a respuestas en segundos."
+═══════════════════════════════════════════════════════════════
+
+FORMATO: Vertical / Carousel LinkedIn (1080x1350 px)
+TONO: Técnico accesible + Storytelling
+PUBLICO: CTOs, Directores de Innovación, Gerentes de TI
+
+─────────────────────────────────────────────────────────────
+SLIDE 1 — HOOK
+─────────────────────────────────────────────────────────────
+[TEXTO GIGANTE]
+"200 EMPLEADOS.
+ 15 PLATAFORMAS.
+ 0 RESPUESTAS RÁPIDAS."
+
+[Subtítulo]
+Así era la vida interna de una firma colombiana antes de RAG.
+
+[Stat]
+Luego de 14 días: 94% de consultas resueltas al instante.
+
+─────────────────────────────────────────────────────────────
+SLIDE 2 — QUÉ ES RAG (Simplificado)
+─────────────────────────────────────────────────────────────
+[Título]
+RAG: RETRIEVAL AUGMENTED GENERATION
+
+[Subtítulo]
+La IA que responde usando TU documentación, no internet.
+
+[Visual: embudo o proceso de 3 pasos]
+
+PASO 1 — INDEXAR
+   [ícono: archivos]
+   Subís manuales, normas, contratos.
+   El sistema los fragmenta y vectoriza.
+
+PASO 2 — BUSCAR
+   [ícono: lupa]
+   El empleado pregunta: "¿Cómo gestiono un reclamo de garantía?"
+   El agente busca en TU documentación.
+
+PASO 3 — RESPONDER
+   [ícono: bocadillo]
+   La IA genera una respuesta precisa, citando la fuente interna.
+   Cero alucinaciones. Cero fugas.
+
+─────────────────────────────────────────────────────────────
+SLIDE 3 — LA TRANSFORMACIÓN
+─────────────────────────────────────────────────────────────
+[Título]
+ANTES vs DESPUÉS
+
+[Tabla comparativa]
+
+|                      | ANTES              | DESPUÉS (RAG)       |
+|----------------------|--------------------|---------------------|
+| Consultas internas   | 3-4 horas          | 12 segundos         |
+| Plataformas          | 15 dispersas       | 1 punto de acceso   |
+| Fuga de datos        | Alta (cloud)       | Zero (local)        |
+| Satisfacción equipo  | 34%                | 94%                 |
+| Intervención humana  | 100%               | 6%                  |
+
+[Destacado verde]
+→ 94% de consultas resueltas automáticamente.
+
+─────────────────────────────────────────────────────────────
+SLIDE 4 — DIAGRAMA DE ARQUITECTURA
+─────────────────────────────────────────────────────────────
+[Título]
+ARQUITECTURA SOBERANA RAG — SIN APIs EXTERNAS
+
+[Diagrama minimalista]
+
+  [DOCUMENTACIÓN]
+       ↓
+   [VECTOR DB]         ← Chroma / Qdrant / Weaviate (local)
+       ↓
+   [MODELO LLM LOCAL]  ← Llama 3.1 / Mistral
+       ↓
+   [AGENTE DE RAG]     ← Consulta + Generación + Citación
+       ↓
+   [INTERFAZ INTERNA]  ← Tu equipo pregunta, recibe, aprueba.
+
+[Flechas internas, nunca salen de la red privada]
+
+[Ícono de candado grande]
+Cero fugas. Cero suscripciones por token. Todo dentro.
+
+─────────────────────────────────────────────────────────────
+SLIDE 5 — ROADMAP 14 DÍAS
+─────────────────────────────────────────────────────────────
+[Título]
+DE ZERO A RAG PRODUCTIVO EN 14 DÍAS
+
+[Timeline horizontal]
+
+Días 1-3   ■ AUDIT
+            Documentación existente, permisos, accesos.
+
+Días 4-7   ■ SETUP
+            Despliegue Vector DB + LLM + RAG pipeline.
+
+Días 8-10  ■ TEST
+            Indexación, pruebas con usuarios piloto.
+
+Días 11-14 ■ GO LIVE
+            Capacitación del equipo. Métricas base.
+
+[Stat]
+Promedio FLIP∀DOOR: 14 días.
+
+─────────────────────────────────────────────────────────────
+SLIDE 6 — CTA
+─────────────────────────────────────────────────────────────
+[Fondo púrpura intenso]
+
+[Título]
+¿TU EQUIPO PIERDE HORAS BUSCANDO LO QUE YA SABÉS?
+
+[Subtítulo]
+Centralizá el conocimiento. Democratizá el acceso. Protegé los datos.
+
+[CTA]
+→ IMPLEMENTÁ RAG EN 14 DÍAS
+
+flipadoor.com
+
+═════════════════════════════════════════════════════════════

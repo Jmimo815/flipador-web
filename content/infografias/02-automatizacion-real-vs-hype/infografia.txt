@@ -1,0 +1,110 @@
+═══════════════════════════════════════════════════════════════
+INFOGRAFÍA #02 — AUTOMATIZACIÓN REAL VS. HYPE
+"Usar 20 herramientas no es automatizar. Es ruido administrativo."
+═══════════════════════════════════════════════════════════════
+
+FORMATO: Vertical / Carousel LinkedIn (1080x1350 px)
+TONO: Provocador + Clarificador
+PUBLICO: COOs, Gerentes de Operaciones, CTOs
+
+─────────────────────────────────────────────────────────────
+SLIDE 1 — HOOK
+─────────────────────────────────────────────────────────────
+[TEXTO GIGANTE]
+"TU EQUIPO NO NECESITA MÁS HERRAMIENTAS.
+ NECESITA MENOS FRICCIONES."
+
+[Subtítulo abajo]
+El 83% de las empresas que "automatan" terminan con más trabajo.
+
+[Footer]
+Hilo de la verdad — por FLIP∀DOOR
+
+─────────────────────────────────────────────────────────────
+SLIDE 2 — EL HYPE (Fondo gris oscuro, tono sombrío)
+─────────────────────────────────────────────────────────────
+[Título]
+LOS 4 MITOS DE LA AUTOMATIZACIÓN
+
+[4 bloques con íconos X rojo]
+1. "COMPRÁMOS GPT PARA TODOS"
+   → 17 suscripciones. 17 passwords. Cero integración.
+
+2. "EL PROMPT MÁGICO LO ARREGLA TODO"
+   → Un prompt brillante no repara un proceso roto.
+
+3. "AUTOMATIZAMOS = AHORRAMOS"
+   → Gastás USD 2K/mes en SaaS y nadie sabe quién usa qué.
+
+4. "LA IA VA A REEMPLAZAR A MI EQUIPO"
+   → La IA que reemplaza fracasa. La IA que potencia, escala.
+
+[Stat abajo]
+Solo el 12% de las automatizaciones en LATAM miden ROI real.
+Fuente: McKinsey Tech Trends LATAM 2025.
+
+─────────────────────────────────────────────────────────────
+SLIDE 3 — LA REALIDAD (Fondo púrpura sutil)
+─────────────────────────────────────────────────────────────
+[Título]
+AUTOMATIZACIÓN REAL = ECOSISTEMA INTEGRADO
+
+[Diagrama: 3 círculos conectados]
+
+DATOS CENTRALIZADOS  →  AGENTES ORQUESTADOS  →  HUMANOS SUPERVISANDO
+        [DB]                   [Robot]                     [Persona]
+
+[Debajo]
+No es una herramienta. Es una arquitectura.
+
+─────────────────────────────────────────────────────────────
+SLIDE 4 — CASO DE USO REAL
+─────────────────────────────────────────────────────────────
+[Título]
+ANTES vs DESPUÉS — CONSULTORA REGIONAL
+
+[Columna izquierda — Rojo, "ANTES"]
+• 12 consultores copiaban CRM → Excel → Email → Reporte
+• 70% del día en tareas repetitivas
+• 320 horas/mes perdidas
+• 3 plataformas pagas sin integrar
+
+[Columna derecha — Verde, "DESPUÉS"]
+• 1 agente extrae, procesa y envía reportes automáticos
+• El consultor solo supervisa y aprueba
+• 320 horas/mes LIBERADAS
+• Las mismas 3 plataformas, ahora conectadas
+
+[Resultado centrado, tipografía grande]
++23% FACTURACIÓN
+
+─────────────────────────────────────────────────────────────
+SLIDE 5 — CHECKLIST DE AUDIT
+─────────────────────────────────────────────────────────────
+[Título]
+AUDITÁ TU "AUTOMATIZACIÓN" EN 5 MINUTOS
+
+[5 ítems con checkbox vacío/falso]
+☐ ¿Sabés exactamente cuánto gastás en herramientas de IA al mes?
+☐ ¿Tus datos fluyen sin que alguien copie y pegue?
+☐ ¿Medís horas liberadas, no solo "uso de herramientas"?
+☐ ¿Tu equipo opera la IA o la dirige?
+☐ ¿Hay un humano que supervisa cada decisión automatizada?
+
+[Si marcás menos de 3 → tu automatización es ruido.]
+
+─────────────────────────────────────────────────────────────
+SLIDE 6 — CTA
+─────────────────────────────────────────────────────────────
+[Fondo degradado púrpura]
+
+[Título centrado]
+DEJÁ DE OPERAR HERRAMIENTAS.
+EMPEZÁ A DIRIGIR ARQUITECTURAS.
+
+[CTA]
+→ DIAGNÓSTICO IA GRATUITO — 30 MINUTOS, SIN COMMITMENT
+
+flipadoor.com
+
+═════════════════════════════════════════════════════════════

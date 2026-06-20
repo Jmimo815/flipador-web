@@ -1,0 +1,26 @@
+═══════════════════════════════════════════════════════════════
+GUÍA VISUAL — INFOGRAFÍA #08 INDUSTRIA 5.0 vs 4.0
+═══════════════════════════════════════════════════════════════
+
+PALETA OFICIAL
+───────────────────────────
+Background: #0a0a0a
+Púrpura: #452476
+Glow: #c084fc → #9333ea
+Blanco: #ffffff
+Gris: #a3a5a5
+
+ESTRUCTURA ESPECÍFICA
+───────────────────────────
+• Slide 2 (4.0): Tonos grises y fríos. Iconografía robótica. Líneas rectas.
+• Slide 3 (5.0): Tonos púrpura cálido. Iconografía humano+robot. Líneas orgánicas.
+• Slide 4 (tabla): Línea divisoria central. Izquierda gris, derecha púrpura/verde.
+• Slide 5 (pilares): 3 columnas verticales con fondo glass. Cada pilar tiene ícono ascendente.
+
+REGLAS
+───────────────────────────
+✓ El contraste 4.0 vs 5.0 debe ser inmediatamente visible sin leer el texto.
+✓ 4.0 = frialdad, eficiencia robot. 5.0 = calidez, colaboración humana.
+✓ NO usar azul en ningún slide. El mundo tech asocia azul con 4.0. Nosotros usamos púrpura para 5.0.
+
+═════════════════════════════════════════════════════════════

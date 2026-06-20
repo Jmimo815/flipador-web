@@ -1,0 +1,33 @@
+═══════════════════════════════════════════════════════════════
+GUÍA VISUAL — INFOGRAFÍA #07 ROI DE IA: 30-60-90 DÍAS
+═══════════════════════════════════════════════════════════════
+
+PALETA OFICIAL FLIP∀DOOR
+Background: #0a0a0a
+Púrpura: #452476
+Glow: #c084fc → #9333ea
+Blanco: #ffffff
+Gris: #a3a5a5
+Verde éxito: #4ade80
+Rojo alerta: #f87171
+
+ESTRUCTURA ESPECÍFICA
+───────────────────────────
+• Slide 2, 3, 4: Usar bandas de color púrpura muy sutil para distinguir meses.
+  Mes 1: púrpura oscuro #452476
+  Mes 2: púrpura medio #6b3ab0
+  Mes 3: púrpura glow #9333ea
+
+• Slide 4 tabla KPIs: Columna "Antes" en gris claro, "Mes 3" en blanco brillante sobre fondo púrpura/verde.
+
+• Slide 5 fórmula ROI: Los números deben ser MONUMENTALES. "320h" y "+23%" deben ocupar 40% del slide.
+
+• Slide 6 comparativo planes: 3 columnas. Plan 2 (Sovereign) debe destacarse con borde glow púrpura.
+
+REGLAS
+───────────────────────────
+✓ Cada mes debe tener su propio "momento visual": iconografía distinta.
+✓ Los números financieros nunca llevan coma decimal. Redondear.
+✓ Tablas con líneas divisorias al 10% de opacidad.
+
+═════════════════════════════════════════════════════════════

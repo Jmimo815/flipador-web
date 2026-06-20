@@ -1,0 +1,130 @@
+═══════════════════════════════════════════════════════════════
+INFOGRAFÍA #07 — ROI DE IA: 30-60-90 DÍAS
+"No prometemos. Medimos."
+═══════════════════════════════════════════════════════════════
+
+FORMATO: Vertical / Carousel LinkedIn (1080x1350 px)
+TONO: Financiero + Resultados tangibles
+PUBLICO: CEOs, CFOs, Consejos de administración
+
+─────────────────────────────────────────────────────────────
+SLIDE 1 — HOOK
+─────────────────────────────────────────────────────────────
+[TEXTO GIGANTE]
+"30 DÍAS: DIAGNÓSTICO.
+ 60 DÍAS: AGENTES.
+ 90 DÍAS: ROI MEDIBLE."
+
+[Subtítulo]
+Así funciona la transformación IA con resultados, no con promesas.
+
+─────────────────────────────────────────────────────────────
+SLIDE 2 — MES 1 (DÍAS 1-30)
+─────────────────────────────────────────────────────────────
+[Número grande: DÍAS 1-30]
+DIAGNÓSTICO + ARQUITECTURA
+
+[Checklist]
+✓ Audit de procesos y madurez IA
+✓ Mapeo de datos y plataformas
+✓ Roadmap priorizado con milestones
+✓ Primer agente piloto (RAG o Tool-use)
+✓ Métricas base establecidas (horas actuales, costos)
+
+[Inversión estimada]
+Diagnóstico: GRATIS
+Setup inicial: Desde USD 3K
+
+─────────────────────────────────────────────────────────────
+SLIDE 3 — MES 2 (DÍAS 31-60)
+─────────────────────────────────────────────────────────────
+[Número grande: DÍAS 31-60]
+IMPLEMENTACIÓN + CAPACITACIÓN
+
+[Checklist]
+✓ 3 agentes operativos (promedio cliente)
+✓ Capacitación del equipo: 5 días
+✓ Integración con CRM / ERP / documentos internos
+✓ Dashboard de métricas en vivo
+✓ Feedback loop con usuarios piloto
+
+[Resultado típico]
+Horas liberadas: 120-200h/mes
+Consultas auto-resueltas: 60-80%
+
+─────────────────────────────────────────────────────────────
+SLIDE 4 — MES 3 (DÍAS 61-90)
+─────────────────────────────────────────────────────────────
+[Número grande: DÍAS 61-90]
+OPTIMIZACIÓN + ROI
+
+[Checklist]
+✓ Métricas de ROI mensual
+✓ Ajuste de agentes según uso real
+✓ Escalamiento a flujos autónomos
+✓ Documentación de procesos estandarizados
+✓ Plan de 180 días
+
+[KPIs medidos]
+
+| KPI                  | Antes | Mes 3 |
+|----------------------|-------|-------|
+| Horas admin/mes      | 320h  | 80h   |
+| Consultas resueltas  | 10%   | 94%   |
+| Satisfacción equipo  | 34%   | 91%   |
+| Facturación adic.    | 0%    | +23%  |
+
+─────────────────────────────────────────────────────────────
+SLIDE 5 — ECUACIÓN FINANCIERA
+─────────────────────────────────────────────────────────────
+[Título]
+ROI SIMPLE
+
+[Fórmula visual]
+INVERSIÓN   = USD 3K-15K (según paquete)
+HORAS LIBERADAS = 200-320h/mes
+VALOR HORA    = USD 50-120 (tu equipo senior)
+
+RETURN MENSUAL ≈ USD 10K-38K
+BREAK EVEN     = Mes 1-2
+
+[Stat]
+El 100% de nuestros clientes recuperan la inversión antes del día 90.
+
+─────────────────────────────────────────────────────────────
+SLIDE 6 — COMPARATIVO DE PLANES
+─────────────────────────────────────────────────────────────
+[Título]
+3 PLANES. MISMA ARQUITECTURA. DISTINTA VELOCIDAD.
+
+[3 columnas]
+
+PLAN 1: DIAGNÓSTICO
+Precio: GRATIS
+Duración: 30 min
+Entregable: Roadmap priorizado + mapa de madurez
+
+PLAN 2: SOVEREIGN AI SETUP
+Precio: Desde USD 3K
+Duración: 14 días
+Entregable: 3 agentes operativos + capacitación + soporte 30 días
+
+PLAN 3: TRANSFORMACIÓN COMPLETA
+Precio: Desde USD 15K
+Duración: 90 días
+Entregable: Ecosistema IA + flujos autónomos + mentoría + ROI mensurable
+
+─────────────────────────────────────────────────────────────
+SLIDE 7 — CTA
+─────────────────────────────────────────────────────────────
+[Fondo púrpura]
+
+[Título]
+¿CUÁNDO FUE LA ÚLTIMA VEZ QUE MEDISTE ROI DE UNA INNOVACIÓN?
+
+[CTA]
+→ EMPEZÁ CON UN DIAGNÓSTICO GRATUITO
+
+flipadoor.com
+
+═════════════════════════════════════════════════════════════
