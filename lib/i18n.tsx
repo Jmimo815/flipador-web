@@ -14,13 +14,34 @@ interface I18nContextType {
 
 const I18nContext = createContext<I18nContextType | null>(null);
 
+function getSavedLocale(): Locale {
+  if (typeof document !== 'undefined') {
+    const cookieMatch = document.cookie.match(/flipador-locale=(es|en|de)/);
+    if (cookieMatch) return cookieMatch[1] as Locale;
+  }
+  if (typeof window !== 'undefined') {
+    const saved = localStorage.getItem('flipador-locale') as Locale | null;
+    if (saved === 'es' || saved === 'en' || saved === 'de') return saved;
+  }
+  return 'es';
+}
+
+function persistLocale(l: Locale) {
+  if (typeof document !== 'undefined') {
+    document.cookie = `flipador-locale=${l}; path=/; max-age=31536000; SameSite=Lax`;
+  }
+  if (typeof window !== 'undefined') {
+    localStorage.setItem('flipador-locale', l);
+  }
+}
+
 export function I18nProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>('es');
+  const [locale, setLocaleState] = useState<Locale>(() => getSavedLocale());
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   useEffect(() => {
-    const saved = localStorage.getItem('flipador-locale') as Locale | null;
-    if (saved && (saved === 'es' || saved === 'en' || saved === 'de')) {
+    const saved = getSavedLocale();
+    if (saved !== locale) {
       setLocaleState(saved);
     }
   }, []);
@@ -28,11 +49,9 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   const setLocale = (l: Locale) => {
     if (l === locale) return;
     setIsTransitioning(true);
-    // Breve pausa para que el blur se aplique antes del re-render
     setTimeout(() => {
       setLocaleState(l);
-      localStorage.setItem('flipador-locale', l);
-      // Mantener blur un momento mientras React re-renderiza todo
+      persistLocale(l);
       setTimeout(() => {
         setIsTransitioning(false);
       }, 250);
@@ -48,7 +67,6 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     <I18nContext.Provider value={{ locale, setLocale, t, isTransitioning }}>
       <>
         {children}
-        {/* Blur overlay durante cambio de idioma */}
         <div
           className={`fixed inset-0 z-[100] bg-brand-black/50 backdrop-blur-xl transition-opacity duration-300 pointer-events-none ${
             isTransitioning ? 'opacity-100' : 'opacity-0'
